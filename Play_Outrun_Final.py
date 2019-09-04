@@ -82,21 +82,27 @@ CARREGANDO FUNCOES NECESSARIAS.
 
 def generate_model():
     input_shape = (220, 320,1)
-    num_classes = 5
+    num_classes = 3
     
     model = Sequential()
-    model.add(Conv2D(24, kernel_size=(5, 5), strides=(2, 2), activation='relu', input_shape=input_shape))
+    model.add(Conv2D(24, kernel_size=(10, 10), strides=(2, 2), input_shape=input_shape))
+    model.add(BatchNormalization())
     model.add(Activation('relu'))
-    model.add(Conv2D(36, kernel_size=(5, 5), strides=(2, 2), activation='relu'))
+    model.add(Conv2D(36, kernel_size=(5, 5), strides=(2, 2)))
+    model.add(BatchNormalization())
     model.add(Activation('relu'))
-    model.add(Conv2D(48, kernel_size=(5, 5), strides=(2, 2), activation='relu'))
+    model.add(Conv2D(64, kernel_size=(5, 5), strides=(2, 2)))
+    model.add(BatchNormalization())
     model.add(Activation('relu'))
-    model.add(Conv2D(64, kernel_size=(3, 3), activation='relu'))
+    model.add(Conv2D(64, kernel_size=(3, 3)))
+    model.add(BatchNormalization())
     model.add(Activation('relu'))
-    model.add(Conv2D(64, kernel_size=(3, 3), activation='relu'))
+    model.add(Conv2D(64, kernel_size=(3, 3)))
+    model.add(BatchNormalization())
+    model.add(Activation('relu'))
     model.add(MaxPooling2D(pool_size=(2, 2)))
     model.add(Flatten())
-    model.add(Dense(2056, activation='relu'))
+    model.add(Dense(1024, activation='relu'))
     model.add(Dense(512, activation='relu'))
     model.add(Dense(128, activation='relu'))
     model.add(Dense(32, activation='relu'))
@@ -145,7 +151,7 @@ print('Virtual Gamepad created. \nReady to play videogames!')
 # CARREGANDO MODELO
 print('Loading Model...')
 model = generate_model()
-model.load_weights('./modelo_outrun_5outputs.hdf5')
+model.load_weights('./model_3_outputs.h5')
 # CAPTURA DE TELA
 graber = mss.mss()
 
@@ -162,9 +168,10 @@ monitor_thread.daemon = True
 monitor_thread.start()
 
 while True:
+    
     b = capture_return_decision(graber,model)
     # learning what to return
-    freia = [1 if b[0][0] >= 0.5  else 0][0]
+    freia = [1 if b[0][0] >= 0.10  else 0][0]
     
     if freia == 0:
         virtual_gamepad.write(ecodes.EV_KEY, ecodes.BTN_NORTH, 0)
@@ -174,7 +181,7 @@ while True:
         virtual_gamepad.write(ecodes.EV_KEY, ecodes.BTN_NORTH, freia)
 
     direcionalx = 0 
-    if b[0][1] <= 0.19 and b[0][2] <= 0.17:
+    if b[0][1] <= 0.3 and b[0][2] <= 0.209:
         direcionalx = 0
     elif b[0][1] > b[0][2]:
         direcionalx = 1
@@ -184,10 +191,10 @@ while True:
         direcionalx = 0
 
     direcionaly = 0
-    if b[0][4] >= 0.02:
-        direcionaly = 1
-    if b[0][3] > 0.001:
-        direcionaly = -1
+    #if b[0][4] >= 0.02:
+    #    direcionaly = 1
+    #if b[0][3] > 0.001:
+    #    direcionaly = -1
     #working with directionals in the controller.
     virtual_gamepad.write(ecodes.EV_ABS,ecodes.ABS_HAT0X,direcionalx)
     virtual_gamepad.write(ecodes.EV_ABS,ecodes.ABS_HAT0Y,direcionaly)
@@ -195,3 +202,4 @@ while True:
     #print(direcionalx,direcionaly,freia)
     print(np.round(b,2))
     #time.sleep(0.05)
+    
