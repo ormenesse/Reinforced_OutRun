@@ -44,10 +44,11 @@ class XboxController(object):
         x = self.Xpad
         y = self.Ypad
         a = self.A
-        b = self.Y # b=1, x=2
+        b = self.X # b=1, x=2
+        c = self.B
         #rb = self.RightBumper
         #return [l,r,u,d,a,b]
-        return [x,y,a,b]
+        return [x,y,a,b,c]
 
 
     def _monitor_controller(self):

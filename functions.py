@@ -44,12 +44,12 @@ class CatEncoder():
             return vet
     def transform(self, vet):
         vet = self.check(vet)
-        #não quero isso
+        #nï¿½o quero isso
         #return vet.map(self.dic).replace(np.nan, -1).astype(int)
         return vet.map(self.dic)
     def inverse_transform(self, vet):
         vet = self.check(vet)
-        #não quero isso 
+        #nï¿½o quero isso 
         #return vet.map(self.rev_dic).replace(np.nan, 'NaN')
         return vet.map(self.rev_dic)
     def fit_transform(self,vet):
@@ -66,7 +66,7 @@ def load_file(nome_arquivo):
         objeto = pickle.load(input)
     return objeto
 
-#lidando com variáveis catégoricas
+#lidando com variï¿½veis catï¿½goricas
 def faz_meu_label(X):
     dict_label = {}
     categoricas = []
