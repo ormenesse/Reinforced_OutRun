@@ -118,6 +118,8 @@ Check it out:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EA_NDtStrGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[![First](https://img.youtube.com/vi/EA_NDtStrGc/0.jpg)](https://www.youtube.com/embed/EA_NDtStrGc "First")
+
 ### Concepts
 
 ## Q-Learning
@@ -152,6 +154,4 @@ After a few episodes of training we can analyse all the data and it's results:
 
 This is a result of 2 days training. I have 1050TI and each episode takes more or less 80 seconds, trainig takes about 30 seconds:
 
-<html>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RX7NwMnc7As" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</html>
+[![Second](https://img.youtube.com/vi/RX7NwMnc7As/0.jpg)](https://www.youtube.com/embed/RX7NwMnc7As "Second")
