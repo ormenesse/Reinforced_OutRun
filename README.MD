@@ -87,6 +87,13 @@ Arg -s: 'true' if you want to save all of your data after the episode, 'false' i
 
 Arg -r: 'true' if you want random play at random times (to generalize your model), 'false' if not.
 
+On Trainer API:
+
+```
+$python all_on_server_side.py
+```
+
+
 ## How does it work?
 
 Actually, very simple:
