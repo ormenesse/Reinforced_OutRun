@@ -116,8 +116,6 @@ Here you can see some schematics of how the it is working:
 
 Check it out:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EA_NDtStrGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 [![First](https://img.youtube.com/vi/EA_NDtStrGc/0.jpg)](https://www.youtube.com/embed/EA_NDtStrGc "First")
 
 ### Concepts
