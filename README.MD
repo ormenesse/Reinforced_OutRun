@@ -2,7 +2,7 @@
 
 ## Personnal Motivation
 
-Sure, that are pretty good library to practice your reinforment learning skills in the market, just like OpenAIGym. The problem was that, I personally have never played Atari in my life, but instead, have played a lot of OutRun. These factor made me try to create a whole new reinforcement learning engine, where I could load any Genesis game or any emulated capable game and train an AI over it. Of course, you may think that this project could be emulated into a GCP or an AWS and all episodes could trained faster, in a blink of an eye, but that`s not the point of this engine. This engine is created for you to observe each episode with your own eyes, check if your reward function work on the go, analyse and learn. That`s the point of this engine.
+Sure, that are pretty good library to practice your reinforment learning skills in the market, just like OpenAIGym. The problem was that, I personally have never played Atari in my life, but instead, have played a lot of OutRun. These factor made me try to create a whole new reinforcement learning engine, where I could load any Genesis game or any emulated capable game and train an AI over it. Of course, you may think that this project could be emulated into a GCP or an AWS and all episodes could trained faster, in a blink of an eye, but that's not the point of this engine. This engine is created for you to observe each episode with your own eyes, check if your reward function work on the go, analyse and learn. That`s the point of this engine.
 In this particular project everuthing is tweaked to work for OutRun, but if you change the reward, game over and controls functions, it should work for every Genesis game you like.
 
 ## Preparing your Engine
@@ -152,4 +152,6 @@ After a few episodes of training we can analyse all the data and it's results:
 
 This is a result of 2 days training. I have 1050TI and each episode takes more or less 80 seconds, trainig takes about 30 seconds:
 
+<html>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RX7NwMnc7As" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</html>
