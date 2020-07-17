@@ -2,7 +2,7 @@
 
 ## Personnal Motivation
 
-Sure, that are pretty good library to practice your reinforment learning skills in the market, just like OpenAIGym. The problem was that, I personally have never played Atari in my life, but instead, have played a lot of OutRun. These factor made me try to create a whole new reinforcement learning engine, where I could load any Genesis game or any emulated capable game and train an AI over it. Of course, you may think that this project could be emulated into a GCP or an AWS and all episodes could trained faster, in a blink of an eye, but that's not the point of this engine. This engine is created for you to observe each episode with your own eyes, check if your reward function work on the go, analyse and learn. That`s the point of this engine.
+Sure, that are pretty good libraries and tools to practice your reinforment learning skills in the market, just like OpenAIGym. But, I personally have never played Atari in my life, but instead, have played a lot of OutRun. These factor made me try to create a whole new reinforcement learning engine, where I could load any Genesis game or any emulated capable game and train an AI over it. Of course, you may think that this project could be emulated into a GCP or an AWS and all episodes could trained faster, in a blink of an eye, but that's not the point of this engine. This engine is created for you to observe each episode with your own eyes, check if your reward function work on the go, analyse and learn. That`s the point of this engine.
 In this particular project everuthing is tweaked to work for OutRun, but if you change the reward, game over and controls functions, it should work for every Genesis game you like.
 
 ## Preparing your Engine
