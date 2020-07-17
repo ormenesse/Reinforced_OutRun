@@ -1,0 +1,4 @@
+
+
+Sample has 1337 training samples.Mean time between samples: 0.3369847375284754 sec.Mean Score between samples: 0.2715276428849732 points.Maximum Train Score: 101180Maximum Delta Score: 1.398221457004547
+Minimum Delta Score:-1.5978811903856696

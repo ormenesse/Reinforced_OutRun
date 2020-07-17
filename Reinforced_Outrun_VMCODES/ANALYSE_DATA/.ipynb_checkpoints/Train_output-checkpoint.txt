@@ -1,0 +1,2059 @@
+ormenesse@ormenesse-virtual-machine:~/Documents/Reinforced_Outrun$ ../../anaconda3/bin/python Train_Outrun.py 
+Will Inject on device: /dev/input/event5
+Virtual Gamepad created. 
+Ready to play videogames!
+
+
+Loading Models...
+2020-05-07 00:43:21.217770: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-05-07 00:43:21.223187: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2208000000 Hz
+2020-05-07 00:43:21.224172: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a892521530 executing computations on platform Host. Devices:
+2020-05-07 00:43:21.224202: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2020-05-07 00:43:21.224860: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+Gtk-Message: 00:43:21.736: Failed to load module "gail"
+Gtk-Message: 00:43:21.736: Failed to load module "atk-bridge"
+
+(gens:36601): Gtk-WARNING **: 00:43:21.746: Unable to locate theme engine in module_path: "adwaita",
+mdp:1:scanExternalPlugins(): Could not open directory '/home/ormenesse/.gens//plugins': No such file or directory.
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_game_genie.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_ips_patcher.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_sgens.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_vdp_layer_options.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_2xsai.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_blargg_ntsc.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_epx.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_epx_plus.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_hq2x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_hq3x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_hq4x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated_scanline.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated_scanline_25.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated_scanline_50.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scale2x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scale3x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scale4x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scanline.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scanline_25.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scanline_50.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_super_2xsai.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_super_eagle.so
+Emulator Screen Id: b'69206017\n69206019\n'
+
+xwininfo: Window id: 0x4200003 "Gens/GS r7 - Genesis: OUTRUN"
+
+  Absolute upper-left X:  83
+  Absolute upper-left Y:  72
+  Relative upper-left X:  3
+  Relative upper-left Y:  24
+  Width: 640
+  Height: 503
+  Depth: 24
+  Visual: 0x21
+  Visual Class: TrueColor
+  Border width: 0
+  Class: InputOutput
+  Colormap: 0x20 (installed)
+  Bit Gravity State: NorthWestGravity
+  Window Gravity State: NorthWestGravity
+  Backing Store State: NotUseful
+  Save Under State: no
+  Map State: IsViewable
+  Override Redirect State: no
+  Corners:  +83+72  -77+72  -77-25  +83-25
+  -geometry 640x503-74-22
+
+
+
+
+End Of Starting Emulator...
+Waiting all modules to initialize...
+
+
+Start playing...
+
+
+
+Random File Number Generated: 573.0 
+
+
+
+Saving File...
+Training will have:  1268 samples over 5 epochs.
+Mean time between samples: 0.3529804109200385 sec.62 of 1269 samples.
+Mean Score between samples: 0.15829093799682034 points.
+Maximum Train Score: 66140
+Train on 1258 samples, validate on 1258 samples
+Epoch 1/5
+1258/1258 [==============================] - 148s 117ms/sample - loss: 0.0117 - acc: 0.8458 - val_loss: 0.0116 - val_acc: 0.8458
+Epoch 2/5
+1258/1258 [==============================] - 111s 88ms/sample - loss: 0.0116 - acc: 0.8458 - val_loss: 0.0116 - val_acc: 0.8458
+Epoch 3/5
+1258/1258 [==============================] - 109s 87ms/sample - loss: 0.0116 - acc: 0.8458 - val_loss: 0.0116 - val_acc: 0.8458
+Epoch 4/5
+1258/1258 [==============================] - 109s 86ms/sample - loss: 0.0116 - acc: 0.8458 - val_loss: 0.0116 - val_acc: 0.8458
+Epoch 5/5
+1258/1258 [==============================] - 108s 86ms/sample - loss: 0.0116 - acc: 0.8458 - val_loss: 0.0116 - val_acc: 0.8458
+Test loss: 0.011634715011014658
+Saving File...
+Training will have:  1290 samples over 5 epochs.
+Mean time between samples: 0.34525881614536047 sec.4 of 1291 samples.
+Mean Score between samples: 0.19935937500000003 points.
+Maximum Train Score: 82990
+Train on 1280 samples, validate on 1280 samples
+Epoch 1/5
+1280/1280 [==============================] - 140s 109ms/sample - loss: 0.0118 - acc: 0.8414 - val_loss: 0.0118 - val_acc: 0.8414
+Epoch 2/5
+1280/1280 [==============================] - 100s 78ms/sample - loss: 0.0118 - acc: 0.8414 - val_loss: 0.0118 - val_acc: 0.8414
+Epoch 3/5
+1280/1280 [==============================] - 101s 79ms/sample - loss: 0.0118 - acc: 0.8414 - val_loss: 0.0118 - val_acc: 0.8414
+Epoch 4/5
+1280/1280 [==============================] - 101s 79ms/sample - loss: 0.0118 - acc: 0.8414 - val_loss: 0.0118 - val_acc: 0.8414
+Epoch 5/5
+1280/1280 [==============================] - 103s 80ms/sample - loss: 0.0118 - acc: 0.8414 - val_loss: 0.0118 - val_acc: 0.8414
+Test loss: 0.01178932588081807
+Saving File...
+Training will have:  1384 samples over 5 epochs.
+Mean time between samples: 0.3215429612940008 sec.79 of 1385 samples.
+Mean Score between samples: 0.19665454545454544 points.
+Maximum Train Score: 80580
+Train on 1375 samples, validate on 1375 samples
+Epoch 1/5
+1375/1375 [==============================] - 155s 113ms/sample - loss: 0.0118 - acc: 0.8422 - val_loss: 0.0118 - val_acc: 0.8422
+Epoch 2/5
+1375/1375 [==============================] - 115s 83ms/sample - loss: 0.0118 - acc: 0.8422 - val_loss: 0.0118 - val_acc: 0.8422
+Epoch 3/5
+1375/1375 [==============================] - 117s 85ms/sample - loss: 0.0118 - acc: 0.8422 - val_loss: 0.0118 - val_acc: 0.8422
+Epoch 4/5
+1375/1375 [==============================] - 118s 86ms/sample - loss: 0.0118 - acc: 0.8422 - val_loss: 0.0118 - val_acc: 0.8422
+Epoch 5/5
+1375/1375 [==============================] - 118s 86ms/sample - loss: 0.0118 - acc: 0.8422 - val_loss: 0.0118 - val_acc: 0.8422
+Test loss: 0.011750568298453634
+Saving File...
+Training will have:  1338 samples over 5 epochs.
+Mean time between samples: 0.3322942174342741 sec.32 of 1339 samples.
+Mean Score between samples: 0.21460843373493976 points.
+Maximum Train Score: 83320
+Train on 1328 samples, validate on 1328 samples
+Epoch 1/5
+1328/1328 [==============================] - 153s 115ms/sample - loss: 0.0118 - acc: 0.8434 - val_loss: 0.0118 - val_acc: 0.8434
+Epoch 2/5
+1328/1328 [==============================] - 113s 85ms/sample - loss: 0.0118 - acc: 0.8434 - val_loss: 0.0118 - val_acc: 0.8434
+Epoch 3/5
+1328/1328 [==============================] - 115s 86ms/sample - loss: 0.0118 - acc: 0.8434 - val_loss: 0.0118 - val_acc: 0.8434
+Epoch 4/5
+1328/1328 [==============================] - 113s 85ms/sample - loss: 0.0118 - acc: 0.8434 - val_loss: 0.0118 - val_acc: 0.8434
+Epoch 5/5
+1328/1328 [==============================] - 113s 85ms/sample - loss: 0.0118 - acc: 0.8434 - val_loss: 0.0118 - val_acc: 0.8434
+Test loss: 0.01176498417394707
+Saving File...
+Training will have:  1378 samples over 5 epochs.
+Mean time between samples: 0.32216538226543506 sec.3 of 1379 samples.
+Mean Score between samples: 0.17195032870708546 points.
+Maximum Train Score: 75380
+Train on 1369 samples, validate on 1369 samples
+Epoch 1/5
+1369/1369 [==============================] - 159s 116ms/sample - loss: 0.0117 - acc: 0.8422 - val_loss: 0.0117 - val_acc: 0.8422
+Epoch 2/5
+1369/1369 [==============================] - 116s 84ms/sample - loss: 0.0117 - acc: 0.8422 - val_loss: 0.0117 - val_acc: 0.8422
+Epoch 3/5
+1369/1369 [==============================] - 117s 85ms/sample - loss: 0.0117 - acc: 0.8422 - val_loss: 0.0117 - val_acc: 0.8422
+Epoch 4/5
+1369/1369 [==============================] - 118s 86ms/sample - loss: 0.0117 - acc: 0.8422 - val_loss: 0.0117 - val_acc: 0.8422
+Epoch 5/5
+1369/1369 [==============================] - 119s 87ms/sample - loss: 0.0117 - acc: 0.8422 - val_loss: 0.0117 - val_acc: 0.8422
+Test loss: 0.011687910988371767
+Saving File...
+Training will have:  1380 samples over 5 epochs.
+Mean time between samples: 0.32241034942821867 sec.4 of 1381 samples.
+Mean Score between samples: 0.1798905109489051 points.
+Maximum Train Score: 80790
+Train on 1370 samples, validate on 1370 samples
+Epoch 1/5
+1370/1370 [==============================] - 155s 113ms/sample - loss: 0.0116 - acc: 0.8474 - val_loss: 0.0116 - val_acc: 0.8474
+Epoch 2/5
+1370/1370 [==============================] - 117s 85ms/sample - loss: 0.0116 - acc: 0.8474 - val_loss: 0.0116 - val_acc: 0.8474
+Epoch 3/5
+1370/1370 [==============================] - 117s 85ms/sample - loss: 0.0116 - acc: 0.8474 - val_loss: 0.0116 - val_acc: 0.8474
+Epoch 4/5
+1370/1370 [==============================] - 116s 85ms/sample - loss: 0.0116 - acc: 0.8474 - val_loss: 0.0116 - val_acc: 0.8474
+Epoch 5/5
+1370/1370 [==============================] - 116s 84ms/sample - loss: 0.0116 - acc: 0.8474 - val_loss: 0.0116 - val_acc: 0.8474
+Test loss: 0.011622289274513286
+Saving File...
+Training will have:  1347 samples over 5 epochs.
+Mean time between samples: 0.3324340980447043 sec.41 of 1348 samples.
+Mean Score between samples: 0.18843679880329095 points.
+Maximum Train Score: 77690
+Train on 1337 samples, validate on 1337 samples
+Epoch 1/5
+1337/1337 [==============================] - 144s 108ms/sample - loss: 0.0118 - acc: 0.8407 - val_loss: 0.0117 - val_acc: 0.8407
+Epoch 2/5
+1337/1337 [==============================] - 109s 81ms/sample - loss: 0.0118 - acc: 0.8407 - val_loss: 0.0117 - val_acc: 0.8407
+Epoch 3/5
+1337/1337 [==============================] - 110s 82ms/sample - loss: 0.0117 - acc: 0.8407 - val_loss: 0.0117 - val_acc: 0.8407
+Epoch 4/5
+1337/1337 [==============================] - 109s 82ms/sample - loss: 0.0118 - acc: 0.8407 - val_loss: 0.0117 - val_acc: 0.8407
+Epoch 5/5
+1337/1337 [==============================] - 108s 81ms/sample - loss: 0.0118 - acc: 0.8407 - val_loss: 0.0117 - val_acc: 0.8407
+Test loss: 0.011741411951617821
+Saving File...
+Training will have:  1452 samples over 5 epochs.
+Mean time between samples: 0.3064672988235992 sec.47 of 1453 samples.
+Mean Score between samples: 0.20259182259182262 points.
+Maximum Train Score: 85520
+Train on 1443 samples, validate on 1443 samples
+Epoch 1/5
+1443/1443 [==============================] - 154s 107ms/sample - loss: 0.0117 - acc: 0.8420 - val_loss: 0.0117 - val_acc: 0.8420
+Epoch 2/5
+1443/1443 [==============================] - 119s 82ms/sample - loss: 0.0117 - acc: 0.8420 - val_loss: 0.0117 - val_acc: 0.8420
+Epoch 3/5
+1443/1443 [==============================] - 118s 82ms/sample - loss: 0.0117 - acc: 0.8420 - val_loss: 0.0117 - val_acc: 0.8420
+Epoch 4/5
+1443/1443 [==============================] - 118s 82ms/sample - loss: 0.0141 - acc: 0.8413 - val_loss: 0.0117 - val_acc: 0.8420
+Epoch 5/5
+1443/1443 [==============================] - 117s 81ms/sample - loss: 0.0117 - acc: 0.8420 - val_loss: 0.0117 - val_acc: 0.8420
+Test loss: 0.011718509399521048
+Saving File...
+Training will have:  1383 samples over 5 epochs.
+Mean time between samples: 0.3368500355639253 sec.77 of 1384 samples.
+Mean Score between samples: 0.1324326292789512 points.
+Maximum Train Score: 68990
+Train on 1373 samples, validate on 1373 samples
+Epoch 1/5
+1373/1373 [==============================] - 150s 109ms/sample - loss: 0.0116 - acc: 0.8398 - val_loss: 0.0116 - val_acc: 0.8398
+Epoch 2/5
+1373/1373 [==============================] - 111s 81ms/sample - loss: 0.0116 - acc: 0.8398 - val_loss: 0.0116 - val_acc: 0.8398
+Epoch 3/5
+1373/1373 [==============================] - 112s 82ms/sample - loss: 0.0116 - acc: 0.8398 - val_loss: 0.0116 - val_acc: 0.8398
+Epoch 4/5
+1373/1373 [==============================] - 114s 83ms/sample - loss: 0.0116 - acc: 0.8398 - val_loss: 0.0116 - val_acc: 0.8398
+Epoch 5/5
+1373/1373 [==============================] - 113s 82ms/sample - loss: 0.0116 - acc: 0.8398 - val_loss: 0.0116 - val_acc: 0.8398
+Test loss: 0.011605689860337725
+Saving File...
+Training will have:  1480 samples over 5 epochs.
+Mean time between samples: 0.3000931652284333 sec.75 of 1481 samples.
+Mean Score between samples: 0.19340584636301833 points.
+Maximum Train Score: 91100
+Train on 1471 samples, validate on 1471 samples
+Epoch 1/5
+1471/1471 [==============================] - 153s 104ms/sample - loss: 0.0118 - acc: 0.8416 - val_loss: 0.0117 - val_acc: 0.8423
+Epoch 2/5
+1471/1471 [==============================] - 119s 81ms/sample - loss: 0.0117 - acc: 0.8423 - val_loss: 0.0117 - val_acc: 0.8423
+Epoch 3/5
+1471/1471 [==============================] - 121s 82ms/sample - loss: 0.0117 - acc: 0.8423 - val_loss: 0.0117 - val_acc: 0.8423
+Epoch 4/5
+1471/1471 [==============================] - 119s 81ms/sample - loss: 0.0117 - acc: 0.8423 - val_loss: 0.0117 - val_acc: 0.8423
+Epoch 5/5
+1471/1471 [==============================] - 121s 82ms/sample - loss: 0.0117 - acc: 0.8423 - val_loss: 0.0117 - val_acc: 0.8423
+Test loss: 0.011698366595491675
+Saving File...
+Training will have:  1416 samples over 5 epochs.
+Mean time between samples: 0.31374034535664413 sec.0 of 1417 samples.
+Mean Score between samples: 0.2056543385490754 points.
+Maximum Train Score: 79330
+Train on 1406 samples, validate on 1406 samples
+Epoch 1/5
+1406/1406 [==============================] - 149s 106ms/sample - loss: 0.0118 - acc: 0.8421 - val_loss: 0.0118 - val_acc: 0.8421
+Epoch 2/5
+1406/1406 [==============================] - 115s 82ms/sample - loss: 0.0118 - acc: 0.8421 - val_loss: 0.0118 - val_acc: 0.8421
+Epoch 3/5
+1406/1406 [==============================] - 115s 82ms/sample - loss: 0.0118 - acc: 0.8421 - val_loss: 0.0118 - val_acc: 0.8421
+Epoch 4/5
+1406/1406 [==============================] - 114s 81ms/sample - loss: 0.0118 - acc: 0.8421 - val_loss: 0.0118 - val_acc: 0.8421
+Epoch 5/5
+1406/1406 [==============================] - 116s 83ms/sample - loss: 0.0118 - acc: 0.8421 - val_loss: 0.0118 - val_acc: 0.8421
+Test loss: 0.011751517616371342
+Saving File...
+Training will have:  1376 samples over 5 epochs.
+Mean time between samples: 0.3219120343642563 sec.70 of 1377 samples.
+Mean Score between samples: 0.11169838945827232 points.
+Maximum Train Score: 58430
+Train on 1366 samples, validate on 1366 samples
+Epoch 1/5
+1366/1366 [==============================] - 145s 106ms/sample - loss: 0.0114 - acc: 0.8485 - val_loss: 0.0114 - val_acc: 0.8485
+Epoch 2/5
+1366/1366 [==============================] - 111s 81ms/sample - loss: 0.0138 - acc: 0.8477 - val_loss: 0.0114 - val_acc: 0.8485
+Epoch 3/5
+1366/1366 [==============================] - 112s 82ms/sample - loss: 0.0114 - acc: 0.8485 - val_loss: 0.0114 - val_acc: 0.8485
+Epoch 4/5
+1366/1366 [==============================] - 113s 82ms/sample - loss: 0.0114 - acc: 0.8485 - val_loss: 0.0114 - val_acc: 0.8485
+Epoch 5/5
+1366/1366 [==============================] - 109s 80ms/sample - loss: 0.0114 - acc: 0.8485 - val_loss: 0.0114 - val_acc: 0.8485
+Test loss: 0.011395183401414101
+Saving File...
+Training will have:  1470 samples over 5 epochs.
+Mean time between samples: 0.30189758882130663 sec.4 of 1471 samples.
+Mean Score between samples: 0.20496575342465753 points.
+Maximum Train Score: 86950
+Train on 1460 samples, validate on 1460 samples
+Epoch 1/5
+1460/1460 [==============================] - 152s 104ms/sample - loss: 0.0117 - acc: 0.8425 - val_loss: 0.0117 - val_acc: 0.8425
+Epoch 2/5
+1460/1460 [==============================] - 120s 82ms/sample - loss: 0.0117 - acc: 0.8425 - val_loss: 0.0117 - val_acc: 0.8425
+Epoch 3/5
+1460/1460 [==============================] - 121s 83ms/sample - loss: 0.0117 - acc: 0.8425 - val_loss: 0.0117 - val_acc: 0.8425
+Epoch 4/5
+1460/1460 [==============================] - 120s 82ms/sample - loss: 0.0117 - acc: 0.8425 - val_loss: 0.0117 - val_acc: 0.8425
+Epoch 5/5
+1460/1460 [==============================] - 122s 83ms/sample - loss: 0.0117 - acc: 0.8425 - val_loss: 0.0117 - val_acc: 0.8425
+Test loss: 0.01171713321890733
+Saving File...
+Training will have:  1480 samples over 5 epochs.
+Mean time between samples: 0.30179488626467127 sec.4 of 1481 samples.
+Mean Score between samples: 0.10597959183673471 points.
+Maximum Train Score: 70540
+Train on 1470 samples, validate on 1470 samples
+Epoch 1/5
+1470/1470 [==============================] - 157s 107ms/sample - loss: 0.0115 - acc: 0.8463 - val_loss: 0.0115 - val_acc: 0.8463
+Epoch 2/5
+1470/1470 [==============================] - 122s 83ms/sample - loss: 0.0115 - acc: 0.8463 - val_loss: 0.0115 - val_acc: 0.8463
+Epoch 3/5
+1470/1470 [==============================] - 119s 81ms/sample - loss: 0.0115 - acc: 0.8463 - val_loss: 0.0115 - val_acc: 0.8463
+Epoch 4/5
+1470/1470 [==============================] - 118s 80ms/sample - loss: 0.0115 - acc: 0.8463 - val_loss: 0.0115 - val_acc: 0.8463
+Epoch 5/5
+1470/1470 [==============================] - 119s 81ms/sample - loss: 0.0115 - acc: 0.8463 - val_loss: 0.0115 - val_acc: 0.8463
+Test loss: 0.01145257121142076
+Saving File...
+Training will have:  1460 samples over 5 epochs.
+Mean time between samples: 0.3038702545494869 sec.54 of 1461 samples.
+Mean Score between samples: 0.13606896551724137 points.
+Maximum Train Score: 71760
+Train on 1450 samples, validate on 1450 samples
+Epoch 1/5
+1450/1450 [==============================] - 147s 102ms/sample - loss: 0.0116 - acc: 0.8448 - val_loss: 0.0115 - val_acc: 0.8448
+Epoch 2/5
+1450/1450 [==============================] - 119s 82ms/sample - loss: 0.0116 - acc: 0.8448 - val_loss: 0.0115 - val_acc: 0.8448
+Epoch 3/5
+1450/1450 [==============================] - 119s 82ms/sample - loss: 0.0116 - acc: 0.8448 - val_loss: 0.0115 - val_acc: 0.8448
+Epoch 4/5
+1450/1450 [==============================] - 118s 82ms/sample - loss: 0.0116 - acc: 0.8448 - val_loss: 0.0115 - val_acc: 0.8448
+Epoch 5/5
+1450/1450 [==============================] - 119s 82ms/sample - loss: 0.0116 - acc: 0.8448 - val_loss: 0.0115 - val_acc: 0.8448
+Test loss: 0.01154520340906135
+Saving File...
+Training will have:  1507 samples over 5 epochs.
+Mean time between samples: 0.2931886842112264 sec.01 of 1508 samples.
+Mean Score between samples: 0.16242484969939877 points.
+Maximum Train Score: 79930
+Train on 1497 samples, validate on 1497 samples
+Epoch 1/5
+1497/1497 [==============================] - 160s 107ms/sample - loss: 0.0116 - acc: 0.8437 - val_loss: 0.0116 - val_acc: 0.8437
+Epoch 2/5
+1497/1497 [==============================] - 123s 82ms/sample - loss: 0.0116 - acc: 0.8437 - val_loss: 0.0116 - val_acc: 0.8437
+Epoch 3/5
+1497/1497 [==============================] - 120s 80ms/sample - loss: 0.0116 - acc: 0.8437 - val_loss: 0.0116 - val_acc: 0.8437
+Epoch 4/5
+1497/1497 [==============================] - 122s 82ms/sample - loss: 0.0116 - acc: 0.8437 - val_loss: 0.0116 - val_acc: 0.8437
+Epoch 5/5
+1497/1497 [==============================] - 121s 81ms/sample - loss: 0.0116 - acc: 0.8437 - val_loss: 0.0116 - val_acc: 0.8437
+Test loss: 0.01159500289999531
+Saving File...
+Training will have:  1412 samples over 5 epochs.
+Mean time between samples: 0.313709485887971 sec.406 of 1413 samples.
+Mean Score between samples: 0.16847360912981454 points.
+Maximum Train Score: 78340
+Train on 1402 samples, validate on 1402 samples
+Epoch 1/5
+1402/1402 [==============================] - 150s 107ms/sample - loss: 0.0116 - acc: 0.8445 - val_loss: 0.0116 - val_acc: 0.8445
+Epoch 2/5
+1402/1402 [==============================] - 115s 82ms/sample - loss: 0.0116 - acc: 0.8445 - val_loss: 0.0116 - val_acc: 0.8445
+Epoch 3/5
+1402/1402 [==============================] - 114s 81ms/sample - loss: 0.0116 - acc: 0.8445 - val_loss: 0.0116 - val_acc: 0.8445
+Epoch 4/5
+1402/1402 [==============================] - 115s 82ms/sample - loss: 0.0116 - acc: 0.8445 - val_loss: 0.0116 - val_acc: 0.8445
+Epoch 5/5
+1402/1402 [==============================] - 114s 81ms/sample - loss: 0.0116 - acc: 0.8445 - val_loss: 0.0116 - val_acc: 0.8445
+Test loss: 0.011621794143901572
+Saving File...
+Training will have:  1456 samples over 5 epochs.
+Mean time between samples: 0.3040585620109801 sec.50 of 1457 samples.
+Mean Score between samples: 0.17956431535269712 points.
+Maximum Train Score: 77230
+Train on 1446 samples, validate on 1446 samples
+Epoch 1/5
+1446/1446 [==============================] - 153s 106ms/sample - loss: 0.0116 - acc: 0.8472 - val_loss: 0.0116 - val_acc: 0.8479
+Epoch 2/5
+1446/1446 [==============================] - 121s 83ms/sample - loss: 0.0116 - acc: 0.8479 - val_loss: 0.0116 - val_acc: 0.8479
+Epoch 3/5
+1446/1446 [==============================] - 121s 84ms/sample - loss: 0.0116 - acc: 0.8479 - val_loss: 0.0116 - val_acc: 0.8479
+Epoch 4/5
+1446/1446 [==============================] - 119s 82ms/sample - loss: 0.0116 - acc: 0.8479 - val_loss: 0.0116 - val_acc: 0.8479
+Epoch 5/5
+1446/1446 [==============================] - 120s 83ms/sample - loss: 0.0116 - acc: 0.8479 - val_loss: 0.0116 - val_acc: 0.8479
+Test loss: 0.011582161676020131
+Saving File...
+Training will have:  1406 samples over 5 epochs.
+Mean time between samples: 0.315022669753919 sec.400 of 1407 samples.
+Mean Score between samples: 0.192012893982808 points.
+Maximum Train Score: 80270
+Train on 1396 samples, validate on 1396 samples
+Epoch 1/5
+1396/1396 [==============================] - 151s 108ms/sample - loss: 0.0117 - acc: 0.8431 - val_loss: 0.0117 - val_acc: 0.8431
+Epoch 2/5
+1396/1396 [==============================] - 116s 83ms/sample - loss: 0.0117 - acc: 0.8431 - val_loss: 0.0117 - val_acc: 0.8431
+Epoch 3/5
+1396/1396 [==============================] - 113s 81ms/sample - loss: 0.0117 - acc: 0.8431 - val_loss: 0.0117 - val_acc: 0.8431
+Epoch 4/5
+1396/1396 [==============================] - 115s 82ms/sample - loss: 0.0117 - acc: 0.8431 - val_loss: 0.0117 - val_acc: 0.8431
+Epoch 5/5
+1396/1396 [==============================] - 113s 81ms/sample - loss: 0.0117 - acc: 0.8431 - val_loss: 0.0117 - val_acc: 0.8431
+Test loss: 0.011702810961187398
+Saving File...
+Training will have:  1424 samples over 5 epochs.
+Mean time between samples: 0.31040573642447644 sec.9 of 1425 samples.
+Mean Score between samples: 0.20889752650176677 points.
+Maximum Train Score: 89120
+Train on 1415 samples, validate on 1415 samples
+Epoch 1/5
+1415/1415 [==============================] - 156s 110ms/sample - loss: 0.0118 - acc: 0.8438 - val_loss: 0.0117 - val_acc: 0.8438
+Epoch 2/5
+1415/1415 [==============================] - 122s 86ms/sample - loss: 0.0118 - acc: 0.8438 - val_loss: 0.0117 - val_acc: 0.8438
+Epoch 3/5
+1415/1415 [==============================] - 128s 90ms/sample - loss: 0.0118 - acc: 0.8431 - val_loss: 0.0117 - val_acc: 0.8438
+Epoch 4/5
+1415/1415 [==============================] - 125s 88ms/sample - loss: 0.0118 - acc: 0.8438 - val_loss: 0.0117 - val_acc: 0.8438
+Epoch 5/5
+1415/1415 [==============================] - 129s 91ms/sample - loss: 0.0118 - acc: 0.8438 - val_loss: 0.0117 - val_acc: 0.8438
+Test loss: 0.011749608611997362
+Saving File...
+Training will have:  1271 samples over 5 epochs.
+Mean time between samples: 0.34888855471297164 sec.5 of 1272 samples.
+Mean Score between samples: 0.18766058683584455 points.
+Maximum Train Score: 75070
+Train on 1261 samples, validate on 1261 samples
+Epoch 1/5
+1261/1261 [==============================] - 150s 119ms/sample - loss: 0.0117 - acc: 0.8414 - val_loss: 0.0117 - val_acc: 0.8414
+Epoch 2/5
+1261/1261 [==============================] - 110s 87ms/sample - loss: 0.0117 - acc: 0.8414 - val_loss: 0.0117 - val_acc: 0.8414
+Epoch 3/5
+1261/1261 [==============================] - 110s 88ms/sample - loss: 0.0117 - acc: 0.8414 - val_loss: 0.0117 - val_acc: 0.8414
+Epoch 4/5
+1261/1261 [==============================] - 108s 86ms/sample - loss: 0.0117 - acc: 0.8414 - val_loss: 0.0117 - val_acc: 0.8414
+Epoch 5/5
+1261/1261 [==============================] - 107s 85ms/sample - loss: 0.0117 - acc: 0.8414 - val_loss: 0.0117 - val_acc: 0.8414
+Test loss: 0.01171051065195987
+Saving File...
+Training will have:  1318 samples over 5 epochs.
+Mean time between samples: 0.33621544961805466 sec.3 of 1319 samples.
+Mean Score between samples: 0.1975859434682964 points.
+Maximum Train Score: 76380
+Train on 1309 samples, validate on 1309 samples
+Epoch 1/5
+1309/1309 [==============================] - 175s 134ms/sample - loss: 0.0117 - acc: 0.8495 - val_loss: 0.0116 - val_acc: 0.8495
+Epoch 2/5
+1309/1309 [==============================] - 142s 109ms/sample - loss: 0.0117 - acc: 0.8495 - val_loss: 0.0116 - val_acc: 0.8495
+Epoch 3/5
+1309/1309 [==============================] - 148s 113ms/sample - loss: 0.0117 - acc: 0.8495 - val_loss: 0.0116 - val_acc: 0.8495
+Epoch 4/5
+1309/1309 [==============================] - 149s 114ms/sample - loss: 0.0116 - acc: 0.8495 - val_loss: 0.0116 - val_acc: 0.8495
+Epoch 5/5
+1309/1309 [==============================] - 141s 108ms/sample - loss: 0.0117 - acc: 0.8495 - val_loss: 0.0116 - val_acc: 0.8495
+Test loss: 0.01163956680391311
+Saving File...
+Training will have:  855 samples over 5 epochs.
+Mean time between samples: 0.5195739099965293 sec.9 of 856 samples.
+Mean Score between samples: 0.26492307692307693 points.
+Maximum Train Score: 63890
+Train on 845 samples, validate on 845 samples
+Epoch 1/5
+845/845 [==============================] - 158s 187ms/sample - loss: 0.0120 - acc: 0.8414 - val_loss: 0.0120 - val_acc: 0.8414
+Epoch 2/5
+845/845 [==============================] - 96s 114ms/sample - loss: 0.0120 - acc: 0.8414 - val_loss: 0.0120 - val_acc: 0.8414
+Epoch 3/5
+845/845 [==============================] - 95s 112ms/sample - loss: 0.0120 - acc: 0.8414 - val_loss: 0.0120 - val_acc: 0.8414
+Epoch 4/5
+845/845 [==============================] - 100s 118ms/sample - loss: 0.0120 - acc: 0.8414 - val_loss: 0.0120 - val_acc: 0.8414
+Epoch 5/5
+845/845 [==============================] - 100s 118ms/sample - loss: 0.0120 - acc: 0.8414 - val_loss: 0.0120 - val_acc: 0.8414
+Test loss: 0.01200532465071015
+Saving File...
+Training will have:  856 samples over 5 epochs.
+Mean time between samples: 0.5254123289816205 sec.0 of 857 samples.
+Mean Score between samples: 0.398144208037825 points.
+Maximum Train Score: 84150
+Train on 846 samples, validate on 846 samples
+Epoch 1/5
+846/846 [==============================] - 140s 165ms/sample - loss: 0.0124 - acc: 0.8416 - val_loss: 0.0124 - val_acc: 0.8416
+Epoch 2/5
+846/846 [==============================] - 95s 112ms/sample - loss: 0.0124 - acc: 0.8416 - val_loss: 0.0124 - val_acc: 0.8416
+Epoch 3/5
+846/846 [==============================] - 94s 112ms/sample - loss: 0.0124 - acc: 0.8416 - val_loss: 0.0123 - val_acc: 0.8416
+Epoch 4/5
+846/846 [==============================] - 97s 115ms/sample - loss: 0.0124 - acc: 0.8416 - val_loss: 0.0124 - val_acc: 0.8416
+Epoch 5/5
+846/846 [==============================] - 97s 115ms/sample - loss: 0.0124 - acc: 0.8416 - val_loss: 0.0124 - val_acc: 0.8416
+Test loss: 0.012351011201281356
+
+
+ormenesse@ormenesse-virtual-machine:~/Documents/Reinforced_Outrun$ ../../anaconda3/bin/python Train_Outrun.py 
+Will Inject on device: /dev/input/event5
+Virtual Gamepad created. 
+Ready to play videogames!
+
+
+Loading Models...
+2020-05-07 20:27:14.204875: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-05-07 20:27:14.212476: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2208000000 Hz
+2020-05-07 20:27:14.214606: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e45c8ace60 executing computations on platform Host. Devices:
+2020-05-07 20:27:14.214648: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2020-05-07 20:27:14.215225: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+Gtk-Message: 20:27:14.707: Failed to load module "gail"
+Gtk-Message: 20:27:14.707: Failed to load module "atk-bridge"
+
+(gens:20037): Gtk-WARNING **: 20:27:14.715: Unable to locate theme engine in module_path: "adwaita",
+mdp:1:scanExternalPlugins(): Could not open directory '/home/ormenesse/.gens//plugins': No such file or directory.
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_game_genie.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_ips_patcher.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_sgens.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_vdp_layer_options.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_2xsai.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_blargg_ntsc.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_epx.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_epx_plus.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_hq2x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_hq3x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_hq4x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated_scanline.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated_scanline_25.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated_scanline_50.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scale2x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scale3x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scale4x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scanline.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scanline_25.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scanline_50.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_super_2xsai.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_super_eagle.so
+Emulator Screen Id: b'71303169\n71303171\n'
+
+xwininfo: Window id: 0x4400003 "Gens/GS r7 - Genesis: OUTRUN"
+
+  Absolute upper-left X:  83
+  Absolute upper-left Y:  72
+  Relative upper-left X:  3
+  Relative upper-left Y:  24
+  Width: 640
+  Height: 503
+  Depth: 24
+  Visual: 0x21
+  Visual Class: TrueColor
+  Border width: 0
+  Class: InputOutput
+  Colormap: 0x20 (installed)
+  Bit Gravity State: NorthWestGravity
+  Window Gravity State: NorthWestGravity
+  Backing Store State: NotUseful
+  Save Under State: no
+  Map State: IsViewable
+  Override Redirect State: no
+  Corners:  +83+72  -77+72  -77-25  +83-25
+  -geometry 640x503-74-22
+
+
+
+
+End Of Starting Emulator...
+Waiting all modules to initialize...
+
+
+Start playing...
+
+
+
+Random File Number Generated: 362.0 
+
+
+
+Saving File...
+Training will have:  1296 samples over 5 epochs.
+Mean time between samples: 0.3437431192323913 sec.90 of 1297 samples.
+Mean Score between samples: 0.11160964230171073 points.
+Maximum Train Score: 77230
+Train on 1286 samples, validate on 1286 samples
+Epoch 1/5
+1286/1286 [==============================] - 148s 115ms/sample - loss: 0.0124 - acc: 0.8421 - val_loss: 0.0124 - val_acc: 0.8421
+Epoch 2/5
+1286/1286 [==============================] - 107s 83ms/sample - loss: 0.0124 - acc: 0.8421 - val_loss: 0.0124 - val_acc: 0.8421
+Epoch 3/5
+1286/1286 [==============================] - 106s 82ms/sample - loss: 0.0124 - acc: 0.8421 - val_loss: 0.0124 - val_acc: 0.8421
+Epoch 4/5
+1286/1286 [==============================] - 104s 81ms/sample - loss: 0.0125 - acc: 0.8414 - val_loss: 0.0124 - val_acc: 0.8421
+Epoch 5/5
+1286/1286 [==============================] - 104s 81ms/sample - loss: 0.0125 - acc: 0.8421 - val_loss: 0.0124 - val_acc: 0.8421
+Test loss: 0.012354736268508767
+Saving File...
+Training will have:  1477 samples over 5 epochs.
+Mean time between samples: 0.30113190831013414 sec.1 of 1478 samples.
+Mean Score between samples: -0.009032038173142472 points.
+Maximum Train Score: 73150
+Train on 1467 samples, validate on 1467 samples
+Epoch 1/5
+1467/1467 [==============================] - 155s 106ms/sample - loss: 0.0118 - acc: 0.8446 - val_loss: 0.0118 - val_acc: 0.8446
+Epoch 2/5
+1467/1467 [==============================] - 118s 80ms/sample - loss: 0.0141 - acc: 0.8439 - val_loss: 0.0118 - val_acc: 0.8446
+Epoch 3/5
+1467/1467 [==============================] - 118s 81ms/sample - loss: 0.0118 - acc: 0.8446 - val_loss: 0.0118 - val_acc: 0.8446
+Epoch 4/5
+1467/1467 [==============================] - 120s 82ms/sample - loss: 0.0118 - acc: 0.8446 - val_loss: 0.0118 - val_acc: 0.8446
+Epoch 5/5
+1467/1467 [==============================] - 120s 82ms/sample - loss: 0.0118 - acc: 0.8446 - val_loss: 0.0118 - val_acc: 0.8446
+Test loss: 0.011779587004833995
+Saving File...
+Training will have:  1434 samples over 5 epochs.
+Mean time between samples: 0.31202535297763484 sec.8 of 1435 samples.
+Mean Score between samples: -0.024543539325842703 points.
+Maximum Train Score: 60610
+Train on 1424 samples, validate on 1424 samples
+Epoch 1/5
+1424/1424 [==============================] - 157s 110ms/sample - loss: 0.0116 - acc: 0.8427 - val_loss: 0.0116 - val_acc: 0.8427
+Epoch 2/5
+1424/1424 [==============================] - 117s 82ms/sample - loss: 0.0120 - acc: 0.8420 - val_loss: 0.0116 - val_acc: 0.8427
+Epoch 3/5
+1424/1424 [==============================] - 117s 82ms/sample - loss: 0.0116 - acc: 0.8427 - val_loss: 0.0116 - val_acc: 0.8427
+Epoch 4/5
+1424/1424 [==============================] - 114s 80ms/sample - loss: 0.0116 - acc: 0.8427 - val_loss: 0.0116 - val_acc: 0.8427
+Epoch 5/5
+1424/1424 [==============================] - 116s 82ms/sample - loss: 0.0116 - acc: 0.8427 - val_loss: 0.0116 - val_acc: 0.8427
+Test loss: 0.011580193080426602
+Saving File...
+Training will have:  1423 samples over 5 epochs.
+Mean time between samples: 0.3118131562318687 sec.17 of 1424 samples.
+Mean Score between samples: -0.004409058740268954 points.
+Maximum Train Score: 62590
+Train on 1413 samples, validate on 1413 samples
+Epoch 1/5
+1413/1413 [==============================] - 155s 110ms/sample - loss: 0.0116 - acc: 0.6532 - val_loss: 0.0116 - val_acc: 0.6532
+Epoch 2/5
+1413/1413 [==============================] - 114s 81ms/sample - loss: 0.0117 - acc: 0.6525 - val_loss: 0.0116 - val_acc: 0.6532
+Epoch 3/5
+1413/1413 [==============================] - 115s 82ms/sample - loss: 0.0116 - acc: 0.6532 - val_loss: 0.0116 - val_acc: 0.6532
+Epoch 4/5
+1413/1413 [==============================] - 113s 80ms/sample - loss: 0.0122 - acc: 0.6525 - val_loss: 0.0116 - val_acc: 0.6532
+Epoch 5/5
+1413/1413 [==============================] - 114s 81ms/sample - loss: 0.0122 - acc: 0.6525 - val_loss: 0.0116 - val_acc: 0.6532
+Test loss: 0.011602336759642768
+Saving File...
+Training will have:  1475 samples over 5 epochs.
+Mean time between samples: 0.30192803099700616 sec.9 of 1476 samples.
+Mean Score between samples: 0.09870307167235497 points.
+Maximum Train Score: 86350
+Train on 1465 samples, validate on 1465 samples
+Epoch 1/5
+1465/1465 [==============================] - 157s 107ms/sample - loss: 0.0169 - acc: 0.6867 - val_loss: 0.0116 - val_acc: 0.6887
+Epoch 2/5
+1465/1465 [==============================] - 118s 81ms/sample - loss: 0.0116 - acc: 0.6887 - val_loss: 0.0116 - val_acc: 0.6887
+Epoch 3/5
+1465/1465 [==============================] - 118s 81ms/sample - loss: 0.0116 - acc: 0.6881 - val_loss: 0.0116 - val_acc: 0.6887
+Epoch 4/5
+1465/1465 [==============================] - 120s 82ms/sample - loss: 0.0116 - acc: 0.6887 - val_loss: 0.0116 - val_acc: 0.6887
+Epoch 5/5
+1465/1465 [==============================] - 120s 82ms/sample - loss: 0.0116 - acc: 0.6887 - val_loss: 0.0116 - val_acc: 0.6887
+Test loss: 0.011606497732674506
+Saving File...
+Training will have:  1422 samples over 5 epochs.
+Mean time between samples: 0.3135630598149286 sec.16 of 1423 samples.
+Mean Score between samples: 0.0679886685552408 points.
+Maximum Train Score: 76600
+Train on 1412 samples, validate on 1412 samples
+Epoch 1/5
+1412/1412 [==============================] - 153s 108ms/sample - loss: 0.0118 - acc: 0.6721 - val_loss: 0.0116 - val_acc: 0.6728
+Epoch 2/5
+1412/1412 [==============================] - 115s 82ms/sample - loss: 0.0117 - acc: 0.6728 - val_loss: 0.0116 - val_acc: 0.6728
+Epoch 3/5
+1412/1412 [==============================] - 115s 82ms/sample - loss: 0.0117 - acc: 0.6728 - val_loss: 0.0116 - val_acc: 0.6728
+Epoch 4/5
+1412/1412 [==============================] - 116s 82ms/sample - loss: 0.0117 - acc: 0.6728 - val_loss: 0.0117 - val_acc: 0.6728
+Epoch 5/5
+1412/1412 [==============================] - 118s 83ms/sample - loss: 0.0117 - acc: 0.6728 - val_loss: 0.0116 - val_acc: 0.6728
+Test loss: 0.011649293640348796
+Saving File...
+Training will have:  1506 samples over 5 epochs.
+Mean time between samples: 0.29950106590189396 sec.0 of 1507 samples.
+Mean Score between samples: 0.051303475935828895 points.
+Maximum Train Score: 80350
+Train on 1496 samples, validate on 1496 samples
+Epoch 1/5
+1496/1496 [==============================] - 160s 107ms/sample - loss: 0.0116 - acc: 0.6591 - val_loss: 0.0116 - val_acc: 0.6591
+Epoch 2/5
+1496/1496 [==============================] - 122s 82ms/sample - loss: 0.0116 - acc: 0.6591 - val_loss: 0.0116 - val_acc: 0.6591
+Epoch 3/5
+1496/1496 [==============================] - 121s 81ms/sample - loss: 0.0116 - acc: 0.6591 - val_loss: 0.0116 - val_acc: 0.6591
+Epoch 4/5
+1496/1496 [==============================] - 122s 81ms/sample - loss: 0.0119 - acc: 0.6584 - val_loss: 0.0116 - val_acc: 0.6591
+Epoch 5/5
+1496/1496 [==============================] - 125s 83ms/sample - loss: 0.0116 - acc: 0.6591 - val_loss: 0.0116 - val_acc: 0.6591
+Test loss: 0.011565358960692258
+Saving File...
+Training will have:  1389 samples over 5 epochs.
+Mean time between samples: 0.3205320195411754 sec.83 of 1390 samples.
+Mean Score between samples: 0.1100072516316171 points.
+Maximum Train Score: 81540
+Train on 1379 samples, validate on 1379 samples
+Epoch 1/5
+1379/1379 [==============================] - 149s 108ms/sample - loss: 0.0119 - acc: 0.6889 - val_loss: 0.0116 - val_acc: 0.6896
+Epoch 2/5
+1379/1379 [==============================] - 113s 82ms/sample - loss: 0.0124 - acc: 0.6889 - val_loss: 0.0116 - val_acc: 0.6896
+Epoch 3/5
+1379/1379 [==============================] - 110s 80ms/sample - loss: 0.0116 - acc: 0.6896 - val_loss: 0.0116 - val_acc: 0.6896
+Epoch 4/5
+1379/1379 [==============================] - 111s 81ms/sample - loss: 0.0116 - acc: 0.6896 - val_loss: 0.0116 - val_acc: 0.6896
+Epoch 5/5
+1379/1379 [==============================] - 113s 82ms/sample - loss: 0.0116 - acc: 0.6896 - val_loss: 0.0116 - val_acc: 0.6896
+Test loss: 0.011615841709579827
+Saving File...
+Training will have:  1419 samples over 5 epochs.
+Mean time between samples: 0.3143170192954048 sec.13 of 1420 samples.
+Mean Score between samples: 0.07778566359119944 points.
+Maximum Train Score: 85180
+Train on 1409 samples, validate on 1409 samples
+Epoch 1/5
+1409/1409 [==============================] - 151s 107ms/sample - loss: 0.0116 - acc: 0.6600 - val_loss: 0.0115 - val_acc: 0.6608
+Epoch 2/5
+1409/1409 [==============================] - 113s 80ms/sample - loss: 0.0116 - acc: 0.6608 - val_loss: 0.0115 - val_acc: 0.6608
+Epoch 3/5
+1409/1409 [==============================] - 118s 84ms/sample - loss: 0.0116 - acc: 0.6608 - val_loss: 0.0115 - val_acc: 0.6608
+Epoch 4/5
+1409/1409 [==============================] - 113s 80ms/sample - loss: 0.0158 - acc: 0.6579 - val_loss: 0.0115 - val_acc: 0.6608
+Epoch 5/5
+1409/1409 [==============================] - 124s 88ms/sample - loss: 0.0116 - acc: 0.6608 - val_loss: 0.0115 - val_acc: 0.6608
+Test loss: 0.011545412443825946
+Saving File...
+Training will have:  1470 samples over 5 epochs.
+Mean time between samples: 0.30136155706562406 sec.4 of 1471 samples.
+Mean Score between samples: 0.015061643835616445 points.
+Maximum Train Score: 69590
+Train on 1460 samples, validate on 1460 samples
+Epoch 1/5
+1460/1460 [==============================] - 154s 106ms/sample - loss: 0.0114 - acc: 0.6623 - val_loss: 0.0113 - val_acc: 0.6623
+Epoch 2/5
+1460/1460 [==============================] - 120s 82ms/sample - loss: 0.0113 - acc: 0.6623 - val_loss: 0.0113 - val_acc: 0.6623
+Epoch 3/5
+1460/1460 [==============================] - 121s 83ms/sample - loss: 0.0113 - acc: 0.6623 - val_loss: 0.0113 - val_acc: 0.6623
+Epoch 4/5
+1460/1460 [==============================] - 119s 82ms/sample - loss: 0.0113 - acc: 0.6623 - val_loss: 0.0113 - val_acc: 0.6623
+Epoch 5/5
+1460/1460 [==============================] - 119s 82ms/sample - loss: 0.0113 - acc: 0.6623 - val_loss: 0.0113 - val_acc: 0.6623
+Test loss: 0.01132373228311947
+Saving File...
+Training will have:  1470 samples over 5 epochs.
+Mean time between samples: 0.30256542277662724 sec.4 of 1471 samples.
+Mean Score between samples: 0.0738013698630137 points.
+Maximum Train Score: 77150
+Train on 1460 samples, validate on 1460 samples
+Epoch 1/5
+1460/1460 [==============================] - 157s 108ms/sample - loss: 0.0115 - acc: 0.6877 - val_loss: 0.0115 - val_acc: 0.6877
+Epoch 2/5
+1460/1460 [==============================] - 120s 82ms/sample - loss: 0.0116 - acc: 0.6870 - val_loss: 0.0115 - val_acc: 0.6877
+Epoch 3/5
+1460/1460 [==============================] - 119s 82ms/sample - loss: 0.0115 - acc: 0.6877 - val_loss: 0.0115 - val_acc: 0.6877
+Epoch 4/5
+1460/1460 [==============================] - 119s 81ms/sample - loss: 0.0115 - acc: 0.6877 - val_loss: 0.0115 - val_acc: 0.6877
+Epoch 5/5
+1460/1460 [==============================] - 119s 81ms/sample - loss: 0.0115 - acc: 0.6877 - val_loss: 0.0115 - val_acc: 0.6877
+Test loss: 0.011500953017950875
+Saving File...
+Training will have:  1488 samples over 5 epochs.
+Mean time between samples: 0.2980738752427056 sec.82 of 1489 samples.
+Mean Score between samples: 0.018193504736129896 points.
+Maximum Train Score: 70770
+Train on 1478 samples, validate on 1478 samples
+Epoch 1/5
+1478/1478 [==============================] - 158s 107ms/sample - loss: 0.0114 - acc: 0.6583 - val_loss: 0.0114 - val_acc: 0.6583
+Epoch 2/5
+1478/1478 [==============================] - 123s 83ms/sample - loss: 0.0114 - acc: 0.6583 - val_loss: 0.0114 - val_acc: 0.6583
+Epoch 3/5
+1478/1478 [==============================] - 120s 81ms/sample - loss: 0.0114 - acc: 0.6583 - val_loss: 0.0114 - val_acc: 0.6583
+Epoch 4/5
+1478/1478 [==============================] - 121s 82ms/sample - loss: 0.0114 - acc: 0.6583 - val_loss: 0.0114 - val_acc: 0.6583
+Epoch 5/5
+1478/1478 [==============================] - 119s 80ms/sample - loss: 0.0114 - acc: 0.6583 - val_loss: 0.0114 - val_acc: 0.6583
+Test loss: 0.0114072344249495
+Saving File...
+Training will have:  1471 samples over 5 epochs.
+Mean time between samples: 0.30241345086381666 sec.5 of 1472 samples.
+Mean Score between samples: 0.06429842573579742 points.
+Maximum Train Score: 84790
+Train on 1461 samples, validate on 1461 samples
+Epoch 1/5
+1461/1461 [==============================] - 152s 104ms/sample - loss: 0.0115 - acc: 0.6543 - val_loss: 0.0115 - val_acc: 0.6543
+Epoch 2/5
+1461/1461 [==============================] - 116s 79ms/sample - loss: 0.0116 - acc: 0.6537 - val_loss: 0.0115 - val_acc: 0.6543
+Epoch 3/5
+1461/1461 [==============================] - 118s 81ms/sample - loss: 0.0115 - acc: 0.6543 - val_loss: 0.0115 - val_acc: 0.6543
+Epoch 4/5
+1461/1461 [==============================] - 118s 81ms/sample - loss: 0.0115 - acc: 0.6543 - val_loss: 0.0115 - val_acc: 0.6543
+Epoch 5/5
+1461/1461 [==============================] - 117s 80ms/sample - loss: 0.0115 - acc: 0.6543 - val_loss: 0.0115 - val_acc: 0.6543
+Test loss: 0.011479774307049072
+Saving File...
+Training will have:  1440 samples over 5 epochs.
+Mean time between samples: 0.3087954452821425 sec.34 of 1441 samples.
+Mean Score between samples: 0.04272727272727271 points.
+Maximum Train Score: 67020
+Train on 1430 samples, validate on 1430 samples
+Epoch 1/5
+1430/1430 [==============================] - 152s 106ms/sample - loss: 0.0114 - acc: 0.6797 - val_loss: 0.0114 - val_acc: 0.6797
+Epoch 2/5
+1430/1430 [==============================] - 118s 82ms/sample - loss: 0.0114 - acc: 0.6797 - val_loss: 0.0114 - val_acc: 0.6797
+Epoch 3/5
+1430/1430 [==============================] - 116s 81ms/sample - loss: 0.0114 - acc: 0.6797 - val_loss: 0.0114 - val_acc: 0.6797
+Epoch 4/5
+1430/1430 [==============================] - 115s 81ms/sample - loss: 0.0114 - acc: 0.6797 - val_loss: 0.0114 - val_acc: 0.6797
+Epoch 5/5
+1430/1430 [==============================] - 117s 82ms/sample - loss: 0.0114 - acc: 0.6797 - val_loss: 0.0114 - val_acc: 0.6797
+Test loss: 0.01137257176939841
+Saving File...
+Training will have:  1451 samples over 5 epochs.
+Mean time between samples: 0.3064468036005681 sec.45 of 1452 samples.
+Mean Score between samples: 0.08775156141568355 points.
+Maximum Train Score: 87290
+Train on 1441 samples, validate on 1441 samples
+Epoch 1/5
+1441/1441 [==============================] - 152s 105ms/sample - loss: 0.0115 - acc: 0.6648 - val_loss: 0.0115 - val_acc: 0.6648
+Epoch 2/5
+1441/1441 [==============================] - 117s 81ms/sample - loss: 0.0115 - acc: 0.6648 - val_loss: 0.0115 - val_acc: 0.6648
+Epoch 3/5
+1441/1441 [==============================] - 130s 90ms/sample - loss: 0.0115 - acc: 0.6648 - val_loss: 0.0115 - val_acc: 0.6648
+Epoch 4/5
+1441/1441 [==============================] - 120s 84ms/sample - loss: 0.0115 - acc: 0.6648 - val_loss: 0.0115 - val_acc: 0.6648
+Epoch 5/5
+1441/1441 [==============================] - 119s 82ms/sample - loss: 0.0115 - acc: 0.6648 - val_loss: 0.0115 - val_acc: 0.6648
+Test loss: 0.011496941854902281
+Saving File...
+Training will have:  1416 samples over 5 epochs.
+Mean time between samples: 0.3128288972428649 sec.10 of 1417 samples.
+Mean Score between samples: 0.07382645803698436 points.
+Maximum Train Score: 76740
+Train on 1406 samples, validate on 1406 samples
+Epoch 1/5
+1406/1406 [==============================] - 153s 109ms/sample - loss: 0.0116 - acc: 0.6835 - val_loss: 0.0114 - val_acc: 0.6835
+Epoch 2/5
+1406/1406 [==============================] - 114s 81ms/sample - loss: 0.0115 - acc: 0.6835 - val_loss: 0.0114 - val_acc: 0.6835
+Epoch 3/5
+1406/1406 [==============================] - 113s 80ms/sample - loss: 0.0115 - acc: 0.6835 - val_loss: 0.0114 - val_acc: 0.6835
+Epoch 4/5
+1406/1406 [==============================] - 113s 80ms/sample - loss: 0.0117 - acc: 0.6828 - val_loss: 0.0114 - val_acc: 0.6835
+Epoch 5/5
+1406/1406 [==============================] - 114s 81ms/sample - loss: 0.0115 - acc: 0.6835 - val_loss: 0.0114 - val_acc: 0.6835
+Test loss: 0.011444109896062787
+Saving File...
+Training will have:  1461 samples over 5 epochs.
+Mean time between samples: 0.3029891596754036 sec.55 of 1462 samples.
+Mean Score between samples: 0.027339765678842155 points.
+Maximum Train Score: 80210
+Train on 1451 samples, validate on 1451 samples
+Epoch 1/5
+1451/1451 [==============================] - 155s 107ms/sample - loss: 0.0114 - acc: 0.6402 - val_loss: 0.0114 - val_acc: 0.6402
+Epoch 2/5
+1451/1451 [==============================] - 117s 81ms/sample - loss: 0.0114 - acc: 0.6402 - val_loss: 0.0114 - val_acc: 0.6402
+Epoch 3/5
+1451/1451 [==============================] - 118s 81ms/sample - loss: 0.0114 - acc: 0.6402 - val_loss: 0.0114 - val_acc: 0.6402
+Epoch 4/5
+1451/1451 [==============================] - 120s 82ms/sample - loss: 0.0114 - acc: 0.6402 - val_loss: 0.0114 - val_acc: 0.6402
+Epoch 5/5
+1451/1451 [==============================] - 119s 82ms/sample - loss: 0.0114 - acc: 0.6402 - val_loss: 0.0114 - val_acc: 0.6402
+Test loss: 0.011402203792579045
+Saving File...
+Training will have:  1454 samples over 5 epochs.
+Mean time between samples: 0.3051167029753286 sec.48 of 1455 samples.
+Mean Score between samples: 0.029182825484764533 points.
+Maximum Train Score: 68480
+Train on 1444 samples, validate on 1444 samples
+Epoch 1/5
+1444/1444 [==============================] - 154s 107ms/sample - loss: 0.0114 - acc: 0.6745 - val_loss: 0.0114 - val_acc: 0.6745
+Epoch 2/5
+1444/1444 [==============================] - 119s 82ms/sample - loss: 0.0114 - acc: 0.6738 - val_loss: 0.0114 - val_acc: 0.6745
+Epoch 3/5
+1444/1444 [==============================] - 117s 81ms/sample - loss: 0.0114 - acc: 0.6745 - val_loss: 0.0114 - val_acc: 0.6745
+Epoch 4/5
+1444/1444 [==============================] - 116s 80ms/sample - loss: 0.0114 - acc: 0.6745 - val_loss: 0.0114 - val_acc: 0.6745
+Epoch 5/5
+1444/1444 [==============================] - 116s 80ms/sample - loss: 0.0114 - acc: 0.6745 - val_loss: 0.0114 - val_acc: 0.6745
+Test loss: 0.01136037547894627
+Saving File...
+Training will have:  1414 samples over 5 epochs.
+Mean time between samples: 0.31369110239782366 sec.9 of 1415 samples.
+Mean Score between samples: 0.04074733096085408 points.
+Maximum Train Score: 74850
+Train on 1405 samples, validate on 1405 samples
+Epoch 1/5
+1405/1405 [==============================] - 149s 106ms/sample - loss: 0.0115 - acc: 0.6498 - val_loss: 0.0115 - val_acc: 0.6498
+Epoch 2/5
+1405/1405 [==============================] - 114s 81ms/sample - loss: 0.0115 - acc: 0.6498 - val_loss: 0.0115 - val_acc: 0.6498
+Epoch 3/5
+1405/1405 [==============================] - 115s 82ms/sample - loss: 0.0117 - acc: 0.6491 - val_loss: 0.0115 - val_acc: 0.6498
+Epoch 4/5
+1405/1405 [==============================] - 112s 80ms/sample - loss: 0.0115 - acc: 0.6498 - val_loss: 0.0115 - val_acc: 0.6498
+Epoch 5/5
+1405/1405 [==============================] - 114s 81ms/sample - loss: 0.0115 - acc: 0.6498 - val_loss: 0.0115 - val_acc: 0.6498
+Test loss: 0.011493718518056903
+Saving File...
+Training will have:  1478 samples over 5 epochs.
+Mean time between samples: 0.30101657108649893 sec.2 of 1479 samples.
+Mean Score between samples: 0.045245231607629416 points.
+Maximum Train Score: 81980
+Train on 1468 samples, validate on 1468 samples
+Epoch 1/5
+1468/1468 [==============================] - 156s 106ms/sample - loss: 0.0115 - acc: 0.6499 - val_loss: 0.0115 - val_acc: 0.6499
+Epoch 2/5
+1468/1468 [==============================] - 119s 81ms/sample - loss: 0.0115 - acc: 0.6499 - val_loss: 0.0115 - val_acc: 0.6499
+Epoch 3/5
+1468/1468 [==============================] - 120s 81ms/sample - loss: 0.0115 - acc: 0.6492 - val_loss: 0.0115 - val_acc: 0.6499
+Epoch 4/5
+1468/1468 [==============================] - 119s 81ms/sample - loss: 0.0115 - acc: 0.6499 - val_loss: 0.0115 - val_acc: 0.6499
+Epoch 5/5
+1468/1468 [==============================] - 118s 81ms/sample - loss: 0.0115 - acc: 0.6499 - val_loss: 0.0115 - val_acc: 0.6499
+Test loss: 0.011453049711639452
+Saving File...
+Training will have:  1443 samples over 5 epochs.
+Mean time between samples: 0.30653516695537686 sec.7 of 1444 samples.
+Mean Score between samples: 0.08311235170969992 points.
+Maximum Train Score: 78020
+Train on 1433 samples, validate on 1433 samples
+Epoch 1/5
+1433/1433 [==============================] - 152s 106ms/sample - loss: 0.0115 - acc: 0.6874 - val_loss: 0.0115 - val_acc: 0.6874
+Epoch 2/5
+1433/1433 [==============================] - 117s 82ms/sample - loss: 0.0153 - acc: 0.6860 - val_loss: 0.0115 - val_acc: 0.6874
+Epoch 3/5
+1433/1433 [==============================] - 116s 81ms/sample - loss: 0.0117 - acc: 0.6867 - val_loss: 0.0115 - val_acc: 0.6874
+Epoch 4/5
+1433/1433 [==============================] - 116s 81ms/sample - loss: 0.0115 - acc: 0.6874 - val_loss: 0.0115 - val_acc: 0.6874
+Epoch 5/5
+1433/1433 [==============================] - 114s 80ms/sample - loss: 0.0115 - acc: 0.6874 - val_loss: 0.0115 - val_acc: 0.6874
+Test loss: 0.011479810527568086
+Saving File...
+Training will have:  1408 samples over 5 epochs.
+Mean time between samples: 0.3155903625215413 sec.02 of 1409 samples.
+Mean Score between samples: 0.08980686695278971 points.
+Maximum Train Score: 85910
+Train on 1398 samples, validate on 1398 samples
+Epoch 1/5
+1398/1398 [==============================] - 151s 108ms/sample - loss: 0.0117 - acc: 0.6595 - val_loss: 0.0115 - val_acc: 0.6602
+Epoch 2/5
+1398/1398 [==============================] - 113s 81ms/sample - loss: 0.0116 - acc: 0.6602 - val_loss: 0.0115 - val_acc: 0.6602
+Epoch 3/5
+1398/1398 [==============================] - 112s 80ms/sample - loss: 0.0116 - acc: 0.6602 - val_loss: 0.0115 - val_acc: 0.6602
+Epoch 4/5
+1398/1398 [==============================] - 114s 82ms/sample - loss: 0.0116 - acc: 0.6602 - val_loss: 0.0115 - val_acc: 0.6602
+Epoch 5/5
+1398/1398 [==============================] - 113s 81ms/sample - loss: 0.0116 - acc: 0.6602 - val_loss: 0.0115 - val_acc: 0.6602
+Test loss: 0.011547541271133058
+Saving File...
+Training will have:  1454 samples over 5 epochs.
+Mean time between samples: 0.3053255637211783 sec.49 of 1455 samples.
+Mean Score between samples: 0.026567474048442896 points.
+Maximum Train Score: 77560
+Train on 1445 samples, validate on 1445 samples
+Epoch 1/5
+1445/1445 [==============================] - 152s 105ms/sample - loss: 0.0114 - acc: 0.6408 - val_loss: 0.0114 - val_acc: 0.6408
+Epoch 2/5
+1445/1445 [==============================] - 116s 80ms/sample - loss: 0.0114 - acc: 0.6408 - val_loss: 0.0114 - val_acc: 0.6408
+Epoch 3/5
+1445/1445 [==============================] - 119s 82ms/sample - loss: 0.0114 - acc: 0.6408 - val_loss: 0.0114 - val_acc: 0.6408
+Epoch 4/5
+1445/1445 [==============================] - 117s 81ms/sample - loss: 0.0114 - acc: 0.6408 - val_loss: 0.0114 - val_acc: 0.6408
+Epoch 5/5
+1445/1445 [==============================] - 119s 82ms/sample - loss: 0.0114 - acc: 0.6408 - val_loss: 0.0114 - val_acc: 0.6408
+Test loss: 0.011405740441129282
+Saving File...
+Training will have:  1380 samples over 5 epochs.
+Mean time between samples: 0.3225535998379227 sec.74 of 1381 samples.
+Mean Score between samples: 0.10675182481751824 points.
+Maximum Train Score: 86340
+Train on 1370 samples, validate on 1370 samples
+Epoch 1/5
+1370/1370 [==============================] - 147s 107ms/sample - loss: 0.0116 - acc: 0.6723 - val_loss: 0.0115 - val_acc: 0.6723
+Epoch 2/5
+1370/1370 [==============================] - 111s 81ms/sample - loss: 0.0116 - acc: 0.6723 - val_loss: 0.0115 - val_acc: 0.6723
+Epoch 3/5
+1370/1370 [==============================] - 111s 81ms/sample - loss: 0.0116 - acc: 0.6723 - val_loss: 0.0115 - val_acc: 0.6723
+Epoch 4/5
+1370/1370 [==============================] - 114s 83ms/sample - loss: 0.0116 - acc: 0.6723 - val_loss: 0.0115 - val_acc: 0.6723
+Epoch 5/5
+1370/1370 [==============================] - 109s 80ms/sample - loss: 0.0116 - acc: 0.6723 - val_loss: 0.0115 - val_acc: 0.6723
+Test loss: 0.011541199383672571
+Saving File...
+Training will have:  1452 samples over 5 epochs.
+Mean time between samples: 0.3044544415401189 sec.46 of 1453 samples.
+Mean Score between samples: 0.02808599167822468 points.
+Maximum Train Score: 77500
+Train on 1442 samples, validate on 1442 samples
+Epoch 1/5
+1442/1442 [==============================] - 153s 106ms/sample - loss: 0.0114 - acc: 0.6436 - val_loss: 0.0114 - val_acc: 0.6436
+Epoch 2/5
+1442/1442 [==============================] - 120s 83ms/sample - loss: 0.0114 - acc: 0.6436 - val_loss: 0.0114 - val_acc: 0.6436
+Epoch 3/5
+1442/1442 [==============================] - 117s 81ms/sample - loss: 0.0114 - acc: 0.6436 - val_loss: 0.0114 - val_acc: 0.6436
+Epoch 4/5
+1442/1442 [==============================] - 118s 82ms/sample - loss: 0.0114 - acc: 0.6436 - val_loss: 0.0114 - val_acc: 0.6436
+Epoch 5/5
+1442/1442 [==============================] - 118s 82ms/sample - loss: 0.0114 - acc: 0.6436 - val_loss: 0.0114 - val_acc: 0.6436
+Test loss: 0.011370098227767427
+Saving File...
+Training will have:  1434 samples over 5 epochs.
+Mean time between samples: 0.3075103123536271 sec.28 of 1435 samples.
+Mean Score between samples: -0.03360252808988766 points.
+Maximum Train Score: 77030
+Train on 1424 samples, validate on 1424 samples
+Epoch 1/5
+1424/1424 [==============================] - 151s 106ms/sample - loss: 0.0113 - acc: 0.5948 - val_loss: 0.0113 - val_acc: 0.5948
+Epoch 2/5
+1424/1424 [==============================] - 116s 81ms/sample - loss: 0.0113 - acc: 0.5948 - val_loss: 0.0113 - val_acc: 0.5948
+Epoch 3/5
+1424/1424 [==============================] - 114s 80ms/sample - loss: 0.0113 - acc: 0.5948 - val_loss: 0.0113 - val_acc: 0.5948
+Epoch 4/5
+1424/1424 [==============================] - 113s 80ms/sample - loss: 0.0113 - acc: 0.5948 - val_loss: 0.0113 - val_acc: 0.5948
+Epoch 5/5
+1424/1424 [==============================] - 116s 81ms/sample - loss: 0.0113 - acc: 0.5948 - val_loss: 0.0113 - val_acc: 0.5948
+Test loss: 0.01126919829108742
+Saving File...
+Training will have:  1453 samples over 5 epochs.
+Mean time between samples: 0.30473796383495805 sec.8 of 1454 samples.
+Mean Score between samples: 0.08400277008310249 points.
+Maximum Train Score: 77460
+Train on 1444 samples, validate on 1444 samples
+Epoch 1/5
+1444/1444 [==============================] - 150s 104ms/sample - loss: 0.0115 - acc: 0.6918 - val_loss: 0.0115 - val_acc: 0.6918
+Epoch 2/5
+1444/1444 [==============================] - 117s 81ms/sample - loss: 0.0115 - acc: 0.6918 - val_loss: 0.0115 - val_acc: 0.6918
+Epoch 3/5
+1444/1444 [==============================] - 118s 81ms/sample - loss: 0.0115 - acc: 0.6918 - val_loss: 0.0115 - val_acc: 0.6918
+Epoch 4/5
+1444/1444 [==============================] - 117s 81ms/sample - loss: 0.0115 - acc: 0.6918 - val_loss: 0.0115 - val_acc: 0.6918
+Epoch 5/5
+1444/1444 [==============================] - 118s 81ms/sample - loss: 0.0115 - acc: 0.6918 - val_loss: 0.0115 - val_acc: 0.6918
+Test loss: 0.01146300954336605
+Saving File...
+Training will have:  1412 samples over 5 epochs.
+Mean time between samples: 0.3142754569033243 sec.06 of 1413 samples.
+Mean Score between samples: 0.10045649072753209 points.
+Maximum Train Score: 72960
+Train on 1402 samples, validate on 1402 samples
+Epoch 1/5
+1402/1402 [==============================] - 151s 108ms/sample - loss: 0.0115 - acc: 0.7118 - val_loss: 0.0115 - val_acc: 0.7118
+Epoch 2/5
+1402/1402 [==============================] - 111s 79ms/sample - loss: 0.0115 - acc: 0.7118 - val_loss: 0.0115 - val_acc: 0.7118
+Epoch 3/5
+1402/1402 [==============================] - 112s 80ms/sample - loss: 0.0115 - acc: 0.7118 - val_loss: 0.0115 - val_acc: 0.7118
+Epoch 4/5
+1402/1402 [==============================] - 114s 82ms/sample - loss: 0.0115 - acc: 0.7118 - val_loss: 0.0115 - val_acc: 0.7118
+Epoch 5/5
+1402/1402 [==============================] - 114s 81ms/sample - loss: 0.0115 - acc: 0.7118 - val_loss: 0.0115 - val_acc: 0.7118
+Test loss: 0.011454155028248989
+Saving File...
+Training will have:  1428 samples over 5 epochs.
+Mean time between samples: 0.3096948159262223 sec.22 of 1429 samples.
+Mean Score between samples: -0.007623413258110013 points.
+Maximum Train Score: 63440
+Train on 1418 samples, validate on 1418 samples
+Epoch 1/5
+1418/1418 [==============================] - 153s 108ms/sample - loss: 0.0113 - acc: 0.6509 - val_loss: 0.0113 - val_acc: 0.6509
+Epoch 2/5
+1418/1418 [==============================] - 117s 82ms/sample - loss: 0.0113 - acc: 0.6509 - val_loss: 0.0113 - val_acc: 0.6509
+Epoch 3/5
+1418/1418 [==============================] - 116s 82ms/sample - loss: 0.0113 - acc: 0.6509 - val_loss: 0.0113 - val_acc: 0.6509
+Epoch 4/5
+1418/1418 [==============================] - 117s 83ms/sample - loss: 0.0113 - acc: 0.6509 - val_loss: 0.0113 - val_acc: 0.6509
+Epoch 5/5
+1418/1418 [==============================] - 115s 81ms/sample - loss: 0.0113 - acc: 0.6509 - val_loss: 0.0113 - val_acc: 0.6509
+Test loss: 0.01127838671643534
+Saving File...
+Training will have:  1418 samples over 5 epochs.
+Mean time between samples: 0.31263889609412715 sec.2 of 1419 samples.
+Mean Score between samples: 0.0833806818181818 points.
+Maximum Train Score: 82480
+Train on 1408 samples, validate on 1408 samples
+Epoch 1/5
+1408/1408 [==============================] - 142s 101ms/sample - loss: 0.0115 - acc: 0.6676 - val_loss: 0.0115 - val_acc: 0.6676
+Epoch 2/5
+1408/1408 [==============================] - 107s 76ms/sample - loss: 0.0115 - acc: 0.6676 - val_loss: 0.0115 - val_acc: 0.6676
+Epoch 3/5
+1408/1408 [==============================] - 109s 77ms/sample - loss: 0.0115 - acc: 0.6676 - val_loss: 0.0115 - val_acc: 0.6676
+Epoch 4/5
+1408/1408 [==============================] - 104s 74ms/sample - loss: 0.0115 - acc: 0.6676 - val_loss: 0.0115 - val_acc: 0.6676
+Epoch 5/5
+1408/1408 [==============================] - 107s 76ms/sample - loss: 0.0115 - acc: 0.6676 - val_loss: 0.0115 - val_acc: 0.6676
+Test loss: 0.011519137537106872
+Saving File...
+Training will have:  1432 samples over 5 epochs.
+Mean time between samples: 0.3090187792368914 sec.26 of 1433 samples.
+Mean Score between samples: 0.08445850914205344 points.
+Maximum Train Score: 86420
+Train on 1422 samples, validate on 1422 samples
+Epoch 1/5
+1422/1422 [==============================] - 150s 106ms/sample - loss: 0.0115 - acc: 0.6681 - val_loss: 0.0115 - val_acc: 0.6681
+Epoch 2/5
+1422/1422 [==============================] - 114s 80ms/sample - loss: 0.0115 - acc: 0.6681 - val_loss: 0.0115 - val_acc: 0.6681
+Epoch 3/5
+1422/1422 [==============================] - 117s 82ms/sample - loss: 0.0115 - acc: 0.6681 - val_loss: 0.0115 - val_acc: 0.6681
+Epoch 4/5
+1422/1422 [==============================] - 115s 81ms/sample - loss: 0.0115 - acc: 0.6681 - val_loss: 0.0115 - val_acc: 0.6681
+Epoch 5/5
+1422/1422 [==============================] - 117s 82ms/sample - loss: 0.0117 - acc: 0.6674 - val_loss: 0.0115 - val_acc: 0.6681
+Test loss: 0.011471923604429439
+Saving File...
+Training will have:  1451 samples over 5 epochs.
+Mean time between samples: 0.3048340225285908 sec.45 of 1452 samples.
+Mean Score between samples: -0.05321304649548925 points.
+Maximum Train Score: 59870
+Train on 1441 samples, validate on 1441 samples
+Epoch 1/5
+1441/1441 [==============================] - 158s 110ms/sample - loss: 0.0112 - acc: 0.6294 - val_loss: 0.0112 - val_acc: 0.6294
+Epoch 2/5
+1441/1441 [==============================] - 121s 84ms/sample - loss: 0.0112 - acc: 0.6294 - val_loss: 0.0112 - val_acc: 0.6294
+Epoch 3/5
+1441/1441 [==============================] - 116s 81ms/sample - loss: 0.0112 - acc: 0.6294 - val_loss: 0.0112 - val_acc: 0.6294
+Epoch 4/5
+1441/1441 [==============================] - 121s 84ms/sample - loss: 0.0112 - acc: 0.6294 - val_loss: 0.0112 - val_acc: 0.6294
+Epoch 5/5
+1441/1441 [==============================] - 118s 82ms/sample - loss: 0.0112 - acc: 0.6294 - val_loss: 0.0112 - val_acc: 0.6294
+Test loss: 0.011186797960845872
+Saving File...
+Training will have:  1467 samples over 5 epochs.
+Mean time between samples: 0.30262520939991255 sec.1 of 1468 samples.
+Mean Score between samples: 0.09148936170212767 points.
+Maximum Train Score: 77460
+Train on 1457 samples, validate on 1457 samples
+Epoch 1/5
+1457/1457 [==============================] - 155s 106ms/sample - loss: 0.0115 - acc: 0.6994 - val_loss: 0.0114 - val_acc: 0.6994
+Epoch 2/5
+1457/1457 [==============================] - 120s 82ms/sample - loss: 0.0114 - acc: 0.6994 - val_loss: 0.0114 - val_acc: 0.6994
+Epoch 3/5
+1457/1457 [==============================] - 121s 83ms/sample - loss: 0.0114 - acc: 0.6994 - val_loss: 0.0114 - val_acc: 0.6994
+Epoch 4/5
+1457/1457 [==============================] - 120s 82ms/sample - loss: 0.0114 - acc: 0.6994 - val_loss: 0.0114 - val_acc: 0.6994
+Epoch 5/5
+1457/1457 [==============================] - 119s 81ms/sample - loss: 0.0114 - acc: 0.6994 - val_loss: 0.0114 - val_acc: 0.6994
+Test loss: 0.01143941814693518
+Saving File...
+Training will have:  1428 samples over 5 epochs.
+Mean time between samples: 0.3098642114859878 sec.22 of 1429 samples.
+Mean Score between samples: 0.062397743300423116 points.
+Maximum Train Score: 83320
+Train on 1418 samples, validate on 1418 samples
+Epoch 1/5
+1418/1418 [==============================] - 161s 113ms/sample - loss: 0.0115 - acc: 0.6544 - val_loss: 0.0115 - val_acc: 0.6544
+Epoch 2/5
+1418/1418 [==============================] - 120s 84ms/sample - loss: 0.0115 - acc: 0.6544 - val_loss: 0.0115 - val_acc: 0.6544
+Epoch 3/5
+1418/1418 [==============================] - 122s 86ms/sample - loss: 0.0115 - acc: 0.6544 - val_loss: 0.0115 - val_acc: 0.6544
+Epoch 4/5
+1418/1418 [==============================] - 117s 83ms/sample - loss: 0.0115 - acc: 0.6544 - val_loss: 0.0115 - val_acc: 0.6544
+Epoch 5/5
+1418/1418 [==============================] - 118s 83ms/sample - loss: 0.0115 - acc: 0.6544 - val_loss: 0.0115 - val_acc: 0.6544
+Test loss: 0.011497451911965445
+Saving File...
+Training will have:  1379 samples over 5 epochs.
+Mean time between samples: 0.32117597999321973 sec.3 of 1380 samples.
+Mean Score between samples: 0.006376917457998532 points.
+Maximum Train Score: 67580
+Train on 1369 samples, validate on 1369 samples
+Epoch 1/5
+1369/1369 [==============================] - 160s 117ms/sample - loss: 0.0114 - acc: 0.6486 - val_loss: 0.0113 - val_acc: 0.6486
+Epoch 2/5
+1369/1369 [==============================] - 113s 82ms/sample - loss: 0.0114 - acc: 0.6486 - val_loss: 0.0113 - val_acc: 0.6486
+Epoch 3/5
+1369/1369 [==============================] - 113s 82ms/sample - loss: 0.0114 - acc: 0.6486 - val_loss: 0.0113 - val_acc: 0.6486
+Epoch 4/5
+1369/1369 [==============================] - 114s 83ms/sample - loss: 0.0114 - acc: 0.6486 - val_loss: 0.0113 - val_acc: 0.6486
+Epoch 5/5
+1369/1369 [==============================] - 114s 83ms/sample - loss: 0.0114 - acc: 0.6486 - val_loss: 0.0113 - val_acc: 0.6486
+Test loss: 0.011343219535189923
+Saving File...
+Training will have:  1277 samples over 5 epochs.
+Mean time between samples: 0.3489217095800338 sec.71 of 1278 samples.
+Mean Score between samples: 0.05681136543014997 points.
+Maximum Train Score: 74460
+Train on 1267 samples, validate on 1267 samples
+Epoch 1/5
+1267/1267 [==============================] - 144s 114ms/sample - loss: 0.0115 - acc: 0.6464 - val_loss: 0.0115 - val_acc: 0.6464
+Epoch 2/5
+1267/1267 [==============================] - 103s 81ms/sample - loss: 0.0115 - acc: 0.6464 - val_loss: 0.0115 - val_acc: 0.6464
+Epoch 3/5
+1267/1267 [==============================] - 105s 83ms/sample - loss: 0.0115 - acc: 0.6464 - val_loss: 0.0115 - val_acc: 0.6464
+Epoch 4/5
+1267/1267 [==============================] - 106s 83ms/sample - loss: 0.0115 - acc: 0.6464 - val_loss: 0.0115 - val_acc: 0.6464
+Epoch 5/5
+1267/1267 [==============================] - 105s 83ms/sample - loss: 0.0115 - acc: 0.6464 - val_loss: 0.0115 - val_acc: 0.6464
+Test loss: 0.01149844469233536
+Saving File...
+Training will have:  1449 samples over 5 epochs.
+Mean time between samples: 0.30596408910221523 sec.4 of 1450 samples.
+Mean Score between samples: 0.08881944444444446 points.
+Maximum Train Score: 73900
+Train on 1440 samples, validate on 1440 samples
+Epoch 1/5
+1440/1440 [==============================] - 146s 101ms/sample - loss: 0.0115 - acc: 0.7000 - val_loss: 0.0115 - val_acc: 0.7007
+Epoch 2/5
+1440/1440 [==============================] - 113s 78ms/sample - loss: 0.0115 - acc: 0.7007 - val_loss: 0.0115 - val_acc: 0.7007
+Epoch 3/5
+1440/1440 [==============================] - 110s 76ms/sample - loss: 0.0115 - acc: 0.7007 - val_loss: 0.0115 - val_acc: 0.7007
+Epoch 4/5
+1440/1440 [==============================] - 111s 77ms/sample - loss: 0.0115 - acc: 0.7007 - val_loss: 0.0115 - val_acc: 0.7007
+Epoch 5/5
+1440/1440 [==============================] - 113s 78ms/sample - loss: 0.0115 - acc: 0.7007 - val_loss: 0.0115 - val_acc: 0.7007
+Test loss: 0.011456616409122943
+Saving File...
+Training will have:  1398 samples over 5 epochs.
+Mean time between samples: 0.3166873715952028 sec.93 of 1399 samples.
+Mean Score between samples: 0.05092872570194381 points.
+Maximum Train Score: 73950
+Train on 1389 samples, validate on 1389 samples
+Epoch 1/5
+1389/1389 [==============================] - 161s 116ms/sample - loss: 0.0115 - acc: 0.6652 - val_loss: 0.0115 - val_acc: 0.6652
+Epoch 2/5
+1389/1389 [==============================] - 125s 90ms/sample - loss: 0.0115 - acc: 0.6652 - val_loss: 0.0115 - val_acc: 0.6652
+Epoch 3/5
+1389/1389 [==============================] - 122s 88ms/sample - loss: 0.0115 - acc: 0.6652 - val_loss: 0.0115 - val_acc: 0.6652
+Epoch 4/5
+1389/1389 [==============================] - 122s 88ms/sample - loss: 0.0115 - acc: 0.6652 - val_loss: 0.0115 - val_acc: 0.6652
+Epoch 5/5
+1389/1389 [==============================] - 125s 90ms/sample - loss: 0.0115 - acc: 0.6652 - val_loss: 0.0115 - val_acc: 0.6652
+Test loss: 0.01145046516847941
+Saving File...
+Training will have:  1085 samples over 5 epochs.
+Mean time between samples: 0.40758131714754325 sec.9 of 1086 samples.
+Mean Score between samples: 0.2536 points.
+Maximum Train Score: 79130
+Train on 1075 samples, validate on 1075 samples
+Epoch 1/5
+1075/1075 [==============================] - 158s 147ms/sample - loss: 0.0118 - acc: 0.7488 - val_loss: 0.0118 - val_acc: 0.7488
+Epoch 2/5
+1075/1075 [==============================] - 111s 103ms/sample - loss: 0.0118 - acc: 0.7488 - val_loss: 0.0118 - val_acc: 0.7488
+Epoch 3/5
+1075/1075 [==============================] - 105s 98ms/sample - loss: 0.0118 - acc: 0.7488 - val_loss: 0.0118 - val_acc: 0.7488
+Epoch 4/5
+1075/1075 [==============================] - 106s 99ms/sample - loss: 0.0118 - acc: 0.7488 - val_loss: 0.0118 - val_acc: 0.7488
+Epoch 5/5
+1075/1075 [==============================] - 107s 100ms/sample - loss: 0.0118 - acc: 0.7488 - val_loss: 0.0118 - val_acc: 0.7488
+Test loss: 0.011817587582870971
+Saving File...
+Training will have:  1037 samples over 5 epochs.
+Mean time between samples: 0.428590280751987 sec.031 of 1038 samples.
+Mean Score between samples: 0.10603700097370987 points.
+Maximum Train Score: 76980
+Train on 1027 samples, validate on 1027 samples
+Epoch 1/5
+1027/1027 [==============================] - 140s 136ms/sample - loss: 0.0117 - acc: 0.6203 - val_loss: 0.0117 - val_acc: 0.6203
+Epoch 2/5
+1027/1027 [==============================] - 96s 94ms/sample - loss: 0.0117 - acc: 0.6203 - val_loss: 0.0117 - val_acc: 0.6203
+Epoch 3/5
+1027/1027 [==============================] - 97s 94ms/sample - loss: 0.0117 - acc: 0.6203 - val_loss: 0.0117 - val_acc: 0.6203
+Epoch 4/5
+1027/1027 [==============================] - 97s 95ms/sample - loss: 0.0117 - acc: 0.6203 - val_loss: 0.0117 - val_acc: 0.6203
+Epoch 5/5
+1027/1027 [==============================] - 91s 89ms/sample - loss: 0.0117 - acc: 0.6203 - val_loss: 0.0117 - val_acc: 0.6203
+Test loss: 0.011657889231351614
+Saving File...
+Training will have:  1445 samples over 5 epochs.
+Mean time between samples: 0.30914448096777086 sec.9 of 1446 samples.
+Mean Score between samples: 0.04534494773519163 points.
+Maximum Train Score: 68070
+Train on 1435 samples, validate on 1435 samples
+Epoch 1/5
+1435/1435 [==============================] - 156s 109ms/sample - loss: 0.0114 - acc: 0.6815 - val_loss: 0.0114 - val_acc: 0.6815
+Epoch 2/5
+1435/1435 [==============================] - 117s 81ms/sample - loss: 0.0114 - acc: 0.6815 - val_loss: 0.0114 - val_acc: 0.6815
+Epoch 3/5
+1435/1435 [==============================] - 117s 81ms/sample - loss: 0.0114 - acc: 0.6815 - val_loss: 0.0114 - val_acc: 0.6815
+Epoch 4/5
+1435/1435 [==============================] - 118s 82ms/sample - loss: 0.0114 - acc: 0.6815 - val_loss: 0.0114 - val_acc: 0.6815
+Epoch 5/5
+1435/1435 [==============================] - 117s 82ms/sample - loss: 0.0114 - acc: 0.6815 - val_loss: 0.0114 - val_acc: 0.6815
+Test loss: 0.011406407979047671
+Saving File...
+Training will have:  1444 samples over 5 epochs.
+Mean time between samples: 0.306780849706844 sec.438 of 1445 samples.
+Mean Score between samples: 0.06649232914923289 points.
+Maximum Train Score: 78870
+Train on 1434 samples, validate on 1434 samples
+Epoch 1/5
+1434/1434 [==============================] - 153s 107ms/sample - loss: 0.0115 - acc: 0.6722 - val_loss: 0.0115 - val_acc: 0.6722
+Epoch 2/5
+1434/1434 [==============================] - 119s 83ms/sample - loss: 0.0115 - acc: 0.6722 - val_loss: 0.0115 - val_acc: 0.6722
+Epoch 3/5
+1434/1434 [==============================] - 117s 82ms/sample - loss: 0.0115 - acc: 0.6722 - val_loss: 0.0115 - val_acc: 0.6722
+Epoch 4/5
+1434/1434 [==============================] - 117s 81ms/sample - loss: 0.0115 - acc: 0.6722 - val_loss: 0.0115 - val_acc: 0.6722
+Epoch 5/5
+1434/1434 [==============================] - 117s 82ms/sample - loss: 0.0115 - acc: 0.6722 - val_loss: 0.0115 - val_acc: 0.6722
+Test loss: 0.011467662021632059
+Saving File...
+Training will have:  1425 samples over 5 epochs.
+Mean time between samples: 0.3115610205242575 sec.19 of 1426 samples.
+Mean Score between samples: 0.09409893992932865 points.
+Maximum Train Score: 73200
+Train on 1415 samples, validate on 1415 samples
+Epoch 1/5
+1415/1415 [==============================] - 154s 109ms/sample - loss: 0.0115 - acc: 0.7088 - val_loss: 0.0115 - val_acc: 0.7088
+Epoch 2/5
+1415/1415 [==============================] - 116s 82ms/sample - loss: 0.0115 - acc: 0.7088 - val_loss: 0.0115 - val_acc: 0.7088
+Epoch 3/5
+1415/1415 [==============================] - 119s 84ms/sample - loss: 0.0115 - acc: 0.7088 - val_loss: 0.0115 - val_acc: 0.7088
+Epoch 4/5
+1415/1415 [==============================] - 118s 83ms/sample - loss: 0.0115 - acc: 0.7088 - val_loss: 0.0115 - val_acc: 0.7088
+Epoch 5/5
+1415/1415 [==============================] - 116s 82ms/sample - loss: 0.0115 - acc: 0.7088 - val_loss: 0.0115 - val_acc: 0.7088
+Test loss: 0.011487804662581046
+Saving File...
+Training will have:  1387 samples over 5 epochs.
+Mean time between samples: 0.31820211102327056 sec.1 of 1388 samples.
+Mean Score between samples: 0.09990559186637622 points.
+Maximum Train Score: 83720
+Train on 1377 samples, validate on 1377 samples
+Epoch 1/5
+1377/1377 [==============================] - 152s 110ms/sample - loss: 0.0116 - acc: 0.6732 - val_loss: 0.0115 - val_acc: 0.6732
+Epoch 2/5
+1377/1377 [==============================] - 116s 84ms/sample - loss: 0.0116 - acc: 0.6732 - val_loss: 0.0115 - val_acc: 0.6732
+Epoch 3/5
+1377/1377 [==============================] - 112s 82ms/sample - loss: 0.0116 - acc: 0.6732 - val_loss: 0.0115 - val_acc: 0.6732
+Epoch 4/5
+1377/1377 [==============================] - 115s 84ms/sample - loss: 0.0115 - acc: 0.6732 - val_loss: 0.0115 - val_acc: 0.6732
+Epoch 5/5
+1377/1377 [==============================] - 113s 82ms/sample - loss: 0.0116 - acc: 0.6732 - val_loss: 0.0115 - val_acc: 0.6732
+Test loss: 0.011544505002000082
+Saving File...
+Training will have:  1384 samples over 5 epochs.
+Mean time between samples: 0.3186704224027053 sec.78 of 1385 samples.
+Mean Score between samples: 0.03406841339155748 points.
+Maximum Train Score: 64260
+Train on 1374 samples, validate on 1374 samples
+Epoch 1/5
+1374/1374 [==============================] - 151s 110ms/sample - loss: 0.0114 - acc: 0.6790 - val_loss: 0.0114 - val_acc: 0.6790
+Epoch 2/5
+1374/1374 [==============================] - 114s 83ms/sample - loss: 0.0114 - acc: 0.6790 - val_loss: 0.0114 - val_acc: 0.6790
+Epoch 3/5
+1374/1374 [==============================] - 114s 83ms/sample - loss: 0.0114 - acc: 0.6783 - val_loss: 0.0114 - val_acc: 0.6790
+Epoch 4/5
+1374/1374 [==============================] - 112s 82ms/sample - loss: 0.0114 - acc: 0.6790 - val_loss: 0.0114 - val_acc: 0.6790
+Epoch 5/5
+1374/1374 [==============================] - 114s 83ms/sample - loss: 0.0114 - acc: 0.6790 - val_loss: 0.0114 - val_acc: 0.6790
+Test loss: 0.011367424181086353
+Saving File...
+Training will have:  1318 samples over 5 epochs.
+Mean time between samples: 0.33560250166359296 sec.2 of 1319 samples.
+Mean Score between samples: 0.14795871559633028 points.
+Maximum Train Score: 79430
+
+Loading Models...
+2020-05-08 15:08:07.507039: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-05-08 15:08:07.512687: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2208000000 Hz
+2020-05-08 15:08:07.513379: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55b1830bcff0 executing computations on platform Host. Devices:
+2020-05-08 15:08:07.513411: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2020-05-08 15:08:07.514502: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+Gtk-Message: 15:08:08.125: Failed to load module "gail"
+Gtk-Message: 15:08:08.126: Failed to load module "atk-bridge"
+
+(gens:31586): Gtk-WARNING **: 15:08:08.135: Unable to locate theme engine in module_path: "adwaita",
+mdp:1:scanExternalPlugins(): Could not open directory '/home/ormenesse/.gens//plugins': No such file or directory.
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_game_genie.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_ips_patcher.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_sgens.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_misc_vdp_layer_options.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_2xsai.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_blargg_ntsc.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_epx.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_epx_plus.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_hq2x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_hq3x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_hq4x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated_scanline.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated_scanline_25.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_interpolated_scanline_50.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scale2x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scale3x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scale4x.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scanline.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scanline_25.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_scanline_50.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_super_2xsai.so
+mdp:3:loadExternalPlugin(): "mdp" symbol loaded from plugin: mdp_render_super_eagle.so
+Emulator Screen Id: b'71303169\n71303171\n'
+
+xwininfo: Window id: 0x4400003 "Gens/GS r7 - Genesis: OUTRUN"
+
+  Absolute upper-left X:  83
+  Absolute upper-left Y:  72
+  Relative upper-left X:  3
+  Relative upper-left Y:  24
+  Width: 640
+  Height: 503
+  Depth: 24
+  Visual: 0x21
+  Visual Class: TrueColor
+  Border width: 0
+  Class: InputOutput
+  Colormap: 0x20 (installed)
+  Bit Gravity State: NorthWestGravity
+  Window Gravity State: NorthWestGravity
+  Backing Store State: NotUseful
+  Save Under State: no
+  Map State: IsViewable
+  Override Redirect State: no
+  Corners:  +83+72  -77+72  -77-25  +83-25
+  -geometry 640x503-74-22
+
+
+
+
+End Of Starting Emulator...
+Waiting all modules to initialize...
+
+
+Start playing...
+
+
+
+Random File Number Generated: 406.0 
+
+
+
+Saving File...
+Training will have:  1142 samples over 5 epochs.
+Starting to organize data before training... Nº 1136 of 1143 samples.
+
+Mean time between samples: 0.3918823262827978 sec.
+Mean Score between samples: 0.13262367491166077 points.
+Maximum Train Score: 82300
+Train on 1132 samples, validate on 1132 samples
+Epoch 1/5
+1132/1132 [==============================] - 158s 139ms/sample - loss: 0.0117 - mse: 0.0117 - val_loss: 0.0117 - val_mse: 0.0117
+Epoch 2/5
+1132/1132 [==============================] - 110s 97ms/sample - loss: 0.0117 - mse: 0.0117 - val_loss: 0.0117 - val_mse: 0.0117
+Epoch 3/5
+1132/1132 [==============================] - 109s 97ms/sample - loss: 0.0117 - mse: 0.0117 - val_loss: 0.0117 - val_mse: 0.0117
+Epoch 4/5
+1132/1132 [==============================] - 109s 96ms/sample - loss: 0.0117 - mse: 0.0117 - val_loss: 0.0117 - val_mse: 0.0117
+Epoch 5/5
+1132/1132 [==============================] - 108s 96ms/sample - loss: 0.0117 - mse: 0.0117 - val_loss: 0.0117 - val_mse: 0.0117
+Test loss: 0.011687476447924918
+Saving File...
+Training will have:  1163 samples over 5 epochs.
+Starting to organize data before training... Nº 1157 of 1164 samples.
+
+Mean time between samples: 0.38393540167332935 sec.
+Mean Score between samples: 0.1448915871639202 points.
+Maximum Train Score: 77820
+Train on 1153 samples, validate on 1153 samples
+Epoch 1/5
+1153/1153 [==============================] - 152s 132ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 2/5
+1153/1153 [==============================] - 113s 98ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 3/5
+1153/1153 [==============================] - 112s 97ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 4/5
+1153/1153 [==============================] - 111s 96ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 5/5
+1153/1153 [==============================] - 110s 95ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Test loss: 0.011603181532647538
+Saving File...
+Training will have:  1192 samples over 5 epochs.
+Starting to organize data before training... Nº 1186 of 1193 samples.
+
+Mean time between samples: 0.37155734100922716 sec.
+Mean Score between samples: 0.0708967851099831 points.
+Maximum Train Score: 74960
+Train on 1182 samples, validate on 1182 samples
+Epoch 1/5
+1182/1182 [==============================] - 153s 129ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 2/5
+1182/1182 [==============================] - 114s 96ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 3/5
+1182/1182 [==============================] - 113s 96ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 4/5
+1182/1182 [==============================] - 113s 95ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 5/5
+1182/1182 [==============================] - 107s 91ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Test loss: 0.011512831787936478
+Saving File...
+Training will have:  1339 samples over 5 epochs.
+Starting to organize data before training... Nº 927 of 1340 samples.
+Starting to organize data before training... Nº 928 of 1340 samples.
+
+Starting to organize data before training... Nº 1333 of 1340 samples.
+
+Mean time between samples: 0.33223690530964983 sec.
+Mean Score between samples: 0.1275921745673439 points.
+Maximum Train Score: 76730
+Train on 1329 samples, validate on 1329 samples
+Epoch 1/5
+1329/1329 [==============================] - 162s 122ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 2/5
+1329/1329 [==============================] - 124s 93ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 3/5
+1329/1329 [==============================] - 134s 101ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 4/5
+1329/1329 [==============================] - 124s 93ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 5/5
+1329/1329 [==============================] - 125s 94ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0115 - val_mse: 0.0115
+Test loss: 0.011541076799878463
+Saving File...
+Training will have:  1237 samples over 5 epochs.
+Starting to organize data before training... Nº 1231 of 1238 samples.
+
+Mean time between samples: 0.36139099347270787 sec.
+Mean Score between samples: 0.13428687856560717 points.
+Maximum Train Score: 83960
+Train on 1227 samples, validate on 1227 samples
+Epoch 1/5
+1227/1227 [==============================] - 151s 123ms/sample - loss: 0.0117 - mse: 0.0117 - val_loss: 0.0117 - val_mse: 0.0117
+Epoch 2/5
+1227/1227 [==============================] - 121s 98ms/sample - loss: 0.0117 - mse: 0.0117 - val_loss: 0.0117 - val_mse: 0.0117
+Epoch 3/5
+1227/1227 [==============================] - 128s 105ms/sample - loss: 0.0117 - mse: 0.0117 - val_loss: 0.0117 - val_mse: 0.0117
+Epoch 4/5
+1227/1227 [==============================] - 128s 104ms/sample - loss: 0.0117 - mse: 0.0117 - val_loss: 0.0117 - val_mse: 0.0117
+Epoch 5/5
+1227/1227 [==============================] - 133s 108ms/sample - loss: 0.0117 - mse: 0.0117 - val_loss: 0.0117 - val_mse: 0.0117
+Test loss: 0.011723518756407252
+Saving File...
+Training will have:  956 samples over 5 epochs.
+Starting to organize data before training... Nº 950 of 957 samples.
+
+Mean time between samples: 0.46745126141554205 sec.
+Mean Score between samples: 0.1863953488372093 points.
+Maximum Train Score: 69620
+Train on 946 samples, validate on 946 samples
+Epoch 1/5
+946/946 [==============================] - 151s 159ms/sample - loss: 0.0118 - mse: 0.0118 - val_loss: 0.0118 - val_mse: 0.0118
+Epoch 2/5
+946/946 [==============================] - 102s 108ms/sample - loss: 0.0118 - mse: 0.0118 - val_loss: 0.0118 - val_mse: 0.0118
+Epoch 3/5
+946/946 [==============================] - 102s 108ms/sample - loss: 0.0118 - mse: 0.0118 - val_loss: 0.0118 - val_mse: 0.0118
+Epoch 4/5
+946/946 [==============================] - 103s 108ms/sample - loss: 0.0118 - mse: 0.0118 - val_loss: 0.0118 - val_mse: 0.0118
+Epoch 5/5
+946/946 [==============================] - 103s 109ms/sample - loss: 0.0118 - mse: 0.0118 - val_loss: 0.0118 - val_mse: 0.0118
+Test loss: 0.011826403990356412
+Saving File...
+Training will have:  1024 samples over 5 epochs.
+Starting to organize data before training... Nº 1018 of 1025 samples.
+
+Mean time between samples: 0.43546023218354296 sec.
+Mean Score between samples: 0.11390532544378698 points.
+Maximum Train Score: 66500
+Train on 1014 samples, validate on 1014 samples
+Epoch 1/5
+1014/1014 [==============================] - 156s 154ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 2/5
+1014/1014 [==============================] - 101s 100ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 3/5
+1014/1014 [==============================] - 89s 88ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 4/5
+1014/1014 [==============================] - 82s 81ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 5/5
+1014/1014 [==============================] - 80s 79ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Test loss: 0.01159047495933797
+Saving File...
+Training will have:  1472 samples over 5 epochs.
+Starting to organize data before training... Nº 1466 of 1473 samples.
+
+Mean time between samples: 0.3049341278754572 sec.
+Mean Score between samples: 0.04326265389876883 points.
+Maximum Train Score: 83850
+Train on 1462 samples, validate on 1462 samples
+Epoch 1/5
+1462/1462 [==============================] - 155s 106ms/sample - loss: 0.0114 - mse: 0.0114 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 2/5
+1462/1462 [==============================] - 117s 80ms/sample - loss: 0.0114 - mse: 0.0114 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 3/5
+1462/1462 [==============================] - 119s 81ms/sample - loss: 0.0114 - mse: 0.0114 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 4/5
+1462/1462 [==============================] - 120s 82ms/sample - loss: 0.0114 - mse: 0.0114 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 5/5
+1462/1462 [==============================] - 120s 82ms/sample - loss: 0.0114 - mse: 0.0114 - val_loss: 0.0114 - val_mse: 0.0114
+Test loss: 0.011415323093482555
+Saving File...
+Training will have:  1418 samples over 5 epochs.
+Starting to organize data before training... Nº 1412 of 1419 samples.
+
+Mean time between samples: 0.313081034374508 sec.
+Mean Score between samples: 0.0528693181818182 points.
+Maximum Train Score: 72540
+Train on 1408 samples, validate on 1408 samples
+Epoch 1/5
+1408/1408 [==============================] - 138s 98ms/sample - loss: 0.0114 - mse: 0.0114 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 2/5
+1408/1408 [==============================] - 108s 77ms/sample - loss: 0.0114 - mse: 0.0114 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 3/5
+1408/1408 [==============================] - 106s 75ms/sample - loss: 0.0114 - mse: 0.0114 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 4/5
+1408/1408 [==============================] - 106s 75ms/sample - loss: 0.0114 - mse: 0.0114 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 5/5
+1408/1408 [==============================] - 107s 76ms/sample - loss: 0.0114 - mse: 0.0114 - val_loss: 0.0114 - val_mse: 0.0114
+Test loss: 0.011429575420069423
+Saving File...
+Training will have:  1474 samples over 5 epochs.
+Starting to organize data before training... Nº 1468 of 1475 samples.
+
+Mean time between samples: 0.3028028040635781 sec.
+Mean Score between samples: 0.01243852459016394 points.
+Maximum Train Score: 65970
+Train on 1464 samples, validate on 1464 samples
+Epoch 1/5
+1464/1464 [==============================] - 154s 105ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 2/5
+1464/1464 [==============================] - 118s 81ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 3/5
+1464/1464 [==============================] - 118s 81ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 4/5
+1464/1464 [==============================] - 119s 81ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 5/5
+1464/1464 [==============================] - 118s 81ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Test loss: 0.011307593760757498
+Saving File...
+Training will have:  1488 samples over 5 epochs.
+Starting to organize data before training... Nº 1482 of 1489 samples.
+
+Mean time between samples: 0.29874448089057604 sec.
+Mean Score between samples: 0.03663734776725303 points.
+Maximum Train Score: 61980
+Train on 1478 samples, validate on 1478 samples
+Epoch 1/5
+1478/1478 [==============================] - 161s 109ms/sample - loss: 0.0114 - mse: 0.0114 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 2/5
+1478/1478 [==============================] - 120s 81ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 3/5
+1478/1478 [==============================] - 121s 82ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 4/5
+1478/1478 [==============================] - 119s 80ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 5/5
+1478/1478 [==============================] - 120s 82ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Test loss: 0.011336008395561105
+Saving File...
+Training will have:  1434 samples over 5 epochs.
+Starting to organize data before training... Nº 1428 of 1435 samples.
+
+Mean time between samples: 0.311232214061062 sec.
+Mean Score between samples: 0.09679775280898875 points.
+Maximum Train Score: 86970
+Train on 1424 samples, validate on 1424 samples
+Epoch 1/5
+1424/1424 [==============================] - 155s 109ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 2/5
+1424/1424 [==============================] - 116s 82ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 3/5
+1424/1424 [==============================] - 114s 80ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 4/5
+1424/1424 [==============================] - 118s 83ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 5/5
+1424/1424 [==============================] - 114s 80ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0115 - val_mse: 0.0115
+Test loss: 0.011511571600698354
+Saving File...
+Training will have:  1418 samples over 5 epochs.
+Starting to organize data before training... Nº 1413 of 1419 samples.
+
+Mean time between samples: 0.31320004263526585 sec.
+Mean Score between samples: 0.07473385379701918 points.
+Maximum Train Score: 76260
+Train on 1409 samples, validate on 1409 samples
+Epoch 1/5
+1409/1409 [==============================] - 152s 108ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 2/5
+1409/1409 [==============================] - 114s 81ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 3/5
+1409/1409 [==============================] - 114s 81ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 4/5
+1409/1409 [==============================] - 115s 81ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Epoch 5/5
+1409/1409 [==============================] - 113s 80ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0115 - val_mse: 0.0115
+Test loss: 0.011521030087939433
+Saving File...
+Training will have:  1483 samples over 5 epochs.
+Starting to organize data before training... Nº 1477 of 1484 samples.
+
+Mean time between samples: 0.3011343628066944 sec.
+Mean Score between samples: 0.042871690427698575 points.
+Maximum Train Score: 79530
+Train on 1473 samples, validate on 1473 samples
+Epoch 1/5
+1473/1473 [==============================] - 158s 108ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 2/5
+1473/1473 [==============================] - 121s 82ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 3/5
+1473/1473 [==============================] - 129s 88ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 4/5
+1473/1473 [==============================] - 122s 83ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 5/5
+1473/1473 [==============================] - 118s 80ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0114 - val_mse: 0.0114
+Test loss: 0.011447080657063352
+Saving File...
+Training will have:  1502 samples over 5 epochs.
+Starting to organize data before training... Nº 1496 of 1503 samples.
+
+Mean time between samples: 0.29580232604898654 sec.
+Mean Score between samples: 0.026588471849865944 points.
+Maximum Train Score: 69070
+Train on 1492 samples, validate on 1492 samples
+Epoch 1/5
+1492/1492 [==============================] - 161s 108ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 2/5
+1492/1492 [==============================] - 121s 81ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 3/5
+1492/1492 [==============================] - 122s 82ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 4/5
+1492/1492 [==============================] - 122s 82ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Epoch 5/5
+1492/1492 [==============================] - 122s 82ms/sample - loss: 0.0113 - mse: 0.0113 - val_loss: 0.0113 - val_mse: 0.0113
+Test loss: 0.01131971542481283
+Saving File...
+Training will have:  1483 samples over 5 epochs.
+Starting to organize data before training... Nº 1477 of 1484 samples.
+
+Mean time between samples: 0.3003990065865345 sec.
+Mean Score between samples: 0.11558044806517309 points.
+Maximum Train Score: 88710
+Train on 1473 samples, validate on 1473 samples
+Epoch 1/5
+1473/1473 [==============================] - 156s 106ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 2/5
+1473/1473 [==============================] - 120s 81ms/sample - loss: 0.0117 - mse: 0.0117 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 3/5
+1473/1473 [==============================] - 120s 82ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 4/5
+1473/1473 [==============================] - 119s 81ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 5/5
+1473/1473 [==============================] - 119s 81ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Test loss: 0.011573886669712362
+Saving File...
+Training will have:  1456 samples over 5 epochs.
+Starting to organize data before training... Nº 1450 of 1457 samples.
+
+Mean time between samples: 0.30419915378670803 sec.
+Mean Score between samples: 0.06655601659751037 points.
+Maximum Train Score: 82700
+Train on 1446 samples, validate on 1446 samples
+Epoch 1/5
+1446/1446 [==============================] - 160s 111ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 2/5
+1446/1446 [==============================] - 115s 80ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 3/5
+1446/1446 [==============================] - 117s 81ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 4/5
+1446/1446 [==============================] - 113s 78ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0114 - val_mse: 0.0114
+Epoch 5/5
+1446/1446 [==============================] - 119s 82ms/sample - loss: 0.0115 - mse: 0.0115 - val_loss: 0.0114 - val_mse: 0.0114
+Test loss: 0.011442554055778813
+Saving File...
+Training will have:  1427 samples over 5 epochs.
+Starting to organize data before training... Nº 1422 of 1428 samples.
+
+Mean time between samples: 0.31150920132151444 sec.
+Mean Score between samples: -0.10177715091678421 points.
+Maximum Train Score: 50590
+Train on 1418 samples, validate on 1418 samples
+Epoch 1/5
+1418/1418 [==============================] - 155s 109ms/sample - loss: 0.0111 - mse: 0.0111 - val_loss: 0.0111 - val_mse: 0.0111
+Epoch 2/5
+1418/1418 [==============================] - 118s 83ms/sample - loss: 0.0111 - mse: 0.0111 - val_loss: 0.0111 - val_mse: 0.0111
+Epoch 3/5
+1418/1418 [==============================] - 119s 84ms/sample - loss: 0.0111 - mse: 0.0111 - val_loss: 0.0111 - val_mse: 0.0111
+Epoch 4/5
+1418/1418 [==============================] - 115s 81ms/sample - loss: 0.0111 - mse: 0.0111 - val_loss: 0.0111 - val_mse: 0.0111
+Epoch 5/5
+1418/1418 [==============================] - 116s 82ms/sample - loss: 0.0111 - mse: 0.0111 - val_loss: 0.0111 - val_mse: 0.0111
+Test loss: 0.011128474738874456
+Saving File...
+Training will have:  1454 samples over 5 epochs.
+Starting to organize data before training... Nº 1448 of 1455 samples.
+
+Mean time between samples: 0.30603236273715373 sec.
+Mean Score between samples: 0.09372576177285319 points.
+Maximum Train Score: 86470
+Train on 1444 samples, validate on 1444 samples
+Epoch 1/5
+1444/1444 [==============================] - 165s 114ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 2/5
+1444/1444 [==============================] - 113s 78ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 3/5
+1444/1444 [==============================] - 111s 77ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 4/5
+1444/1444 [==============================] - 110s 76ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Epoch 5/5
+1444/1444 [==============================] - 113s 78ms/sample - loss: 0.0116 - mse: 0.0116 - val_loss: 0.0116 - val_mse: 0.0116
+Test loss: 0.011561397906815906
+
+Saving File...
+Training will have:  1267 samples over 5 epochs.
+Starting to organize data before training... Nº 1261 of 1268 samples.
+
+Mean time between samples: 0.3553076065430683 sec.
+Mean Score between samples: 0.2854826687396909 points.
+Maximum Train Score: 83780
+Maximum Delta Score: 1.6146104288101197 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1337 samples over 5 epochs.
+Starting to organize data before training... Nº 1331 of 1338 samples.
+
+Mean time between samples: 0.3366824405572427 sec.
+Mean Score between samples: 0.2690703974826544 points.
+Maximum Train Score: 84270
+Maximum Delta Score: 1.3955499172210692 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1399 samples over 5 epochs.
+Starting to organize data before training... Nº 1393 of 1400 samples.
+
+Mean time between samples: 0.3213281902673006 sec.
+Mean Score between samples: 0.1951371002376423 points.
+Maximum Train Score: 79600
+Maximum Delta Score: 1.4455418801307678 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1396 samples over 5 epochs.
+Starting to organize data before training... Nº 1391 of 1397 samples.
+
+Mean time between samples: 0.3210390908475737 sec.
+Mean Score between samples: 0.1698096562986395 points.
+Maximum Train Score: 82230
+Maximum Delta Score: 1.3937953948974608 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1347 samples over 5 epochs.
+Starting to organize data before training... Nº 1341 of 1348 samples.
+
+Mean time between samples: 0.33414667242930374 sec.
+Mean Score between samples: 0.20545161800041778 points.
+Maximum Train Score: 77340
+Maximum Delta Score: 1.4315916919708251 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1366 samples over 5 epochs.
+Starting to organize data before training... Nº 1361 of 1367 samples.
+
+Mean time between samples: 0.32962978562627016 sec.
+Mean Score between samples: 0.1512798547770488 points.
+Maximum Train Score: 76760
+Maximum Delta Score: 1.288342583179474 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1363 samples over 5 epochs.
+Starting to organize data before training... Nº 1357 of 1364 samples.
+
+Mean time between samples: 0.33293901173520424 sec.
+Mean Score between samples: 0.3197987765146052 points.
+Maximum Train Score: 93270
+Maximum Delta Score: 11.337414369583131 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1380 samples over 5 epochs.
+Starting to organize data before training... Nº 1374 of 1381 samples.
+
+Mean time between samples: 0.32583392310316545 sec.
+Mean Score between samples: 0.2820669945315832 points.
+Maximum Train Score: 86810
+Maximum Delta Score: 1.5886401200294493 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1365 samples over 5 epochs.
+Starting to organize data before training... Nº 1359 of 1366 samples.
+
+Mean time between samples: 0.33023355737383514 sec.
+Mean Score between samples: 0.194063934520973 points.
+Maximum Train Score: 77680
+Maximum Delta Score: 1.6581095790863039 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1360 samples over 5 epochs.
+Starting to organize data before training... Nº 1354 of 1361 samples.
+
+Mean time between samples: 0.3342806934427332 sec.
+Mean Score between samples: 0.2109512999713145 points.
+Maximum Train Score: 80350
+Maximum Delta Score: 2.246262867450714 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1334 samples over 5 epochs.
+Starting to organize data before training... Nº 1328 of 1335 samples.
+
+Mean time between samples: 0.3317614213937719 sec.
+Mean Score between samples: 0.21511299615051302 points.
+Maximum Train Score: 83040
+Maximum Delta Score: 1.6178621602058412 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1366 samples over 5 epochs.
+Starting to organize data before training... Nº 1361 of 1367 samples.
+
+Mean time between samples: 0.3322929390757595 sec.
+Mean Score between samples: 0.20494575493772743 points.
+Maximum Train Score: 76540
+Maximum Delta Score: 1.2982325434684754 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1381 samples over 5 epochs.
+Starting to organize data before training... Nº 1375 of 1382 samples.
+
+Mean time between samples: 0.32454064847082226 sec.
+Mean Score between samples: 0.2789814424526115 points.
+Maximum Train Score: 83500
+Maximum Delta Score: 1.512002248764038 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1365 samples over 5 epochs.
+Starting to organize data before training... Nº 1360 of 1366 samples.
+
+Mean time between samples: 0.3403586064819741 sec.
+Mean Score between samples: 0.22352657441086213 points.
+Maximum Train Score: 77120
+Maximum Delta Score: 1.476783266067505 
+Minimum Delta Score: -1
+
+
+Start playing...
+
+
+
+Random File Number Generated: 857.0 
+
+
+
+Saving File...
+Training will have:  1256 samples over 5 epochs.
+Starting to organize data before training... Nº 1250 of 1257 samples.
+
+Mean time between samples: 0.36047872092521016 sec.
+Mean Score between samples: 0.3135351739299184 points.
+Maximum Train Score: 99860
+Maximum Delta Score: 11.237543938159943 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1285 samples over 5 epochs.
+Starting to organize data before training... Nº 1279 of 1286 samples.
+
+Mean time between samples: 0.3502931686476165 sec.
+Mean Score between samples: 0.25619818026835434 points.
+Maximum Train Score: 86040
+Maximum Delta Score: 1.2990033507347107 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1322 samples over 5 epochs.
+Starting to organize data before training... Nº 1316 of 1323 samples.
+
+Mean time between samples: 0.3401669532787509 sec.
+Mean Score between samples: 0.2789897418945812 points.
+Maximum Train Score: 83800
+Maximum Delta Score: 1.2995443224906922 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1379 samples over 5 epochs.
+Starting to organize data before training... Nº 1373 of 1380 samples.
+
+Mean time between samples: 0.327596681844239 sec.
+Mean Score between samples: 0.2205806513995863 points.
+Maximum Train Score: 78510
+Maximum Delta Score: 1.5122466278076172 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1323 samples over 5 epochs.
+Starting to organize data before training... Nº 1317 of 1324 samples.
+
+Mean time between samples: 0.34028195572189945 sec.
+Mean Score between samples: 0.30635854613357943 points.
+Maximum Train Score: 84930
+Maximum Delta Score: 1.394828164577484 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1244 samples over 5 epochs.
+Starting to organize data before training... Nº 1238 of 1245 samples.
+
+Mean time between samples: 0.3636667056060494 sec.
+Mean Score between samples: 0.29639744372680676 points.
+Maximum Train Score: 83850
+Maximum Delta Score: 1.843004012107849 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1379 samples over 5 epochs.
+Starting to organize data before training... Nº 1374 of 1380 samples.
+
+Mean time between samples: 0.328320575804606 sec.
+Mean Score between samples: 0.17983776974015916 points.
+Maximum Train Score: 66750
+Maximum Delta Score: 1.317657196521759 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1332 samples over 5 epochs.
+Starting to organize data before training... Nº 1326 of 1333 samples.
+
+Mean time between samples: 0.33945516252301283 sec.
+Mean Score between samples: 0.2673858867306192 points.
+Maximum Train Score: 89230
+Maximum Delta Score: 1.4368626499176025 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1255 samples over 5 epochs.
+Starting to organize data before training... Nº 1249 of 1256 samples.
+
+Mean time between samples: 0.3600673972363453 sec.
+Mean Score between samples: 0.1681643135990409 points.
+Maximum Train Score: 79010
+Maximum Delta Score: 1.5260202574729917 
+Minimum Delta Score: -1
+Saving File...
+Training will have:  1090 samples over 5 epochs.
+Starting to organize data before training... Nº 1084 of 1091 samples.
+
+Mean time between samples: 0.4137288881672753 sec.
+Mean Score between samples: 0.332506275046936 points.
+Maximum Train Score: 79430
+Maximum Delta Score: 1.4945253133773804 
+Minimum Delta Score: -1
+
+Random File Number Generated: 521.0 
+
+
+
+Saving File...
+Training will have:  963 samples over 5 epochs.
+Starting to organize data before training... Nº 957 of 964 samples.
+
+Mean time between samples: 0.4707634554079422 sec.
+Mean Score between samples: 0.3266203733146873 points.
+Maximum Train Score: 87340
+Maximum Delta Score: 1.639305794239044 
+Minimum Delta Score: -1.5984455589437858
+Saving File...
+Training will have:  996 samples over 5 epochs.
+Starting to organize data before training... Nº 990 of 997 samples.
+
+Mean time between samples: 0.5088024286904634 sec.
+Mean Score between samples: 0.5002113959242347 points.
+Maximum Train Score: 97900
+Maximum Delta Score: 2.693428289890289 
+Minimum Delta Score: -1.5977539712563158
+Saving File...
+Training will have:  1170 samples over 5 epochs.
+Starting to organize data before training... Nº 1164 of 1171 samples.
+
+Mean time between samples: 0.3885414090649835 sec.
+Mean Score between samples: 0.1374538374923266 points.
+Maximum Train Score: 81620
+Maximum Delta Score: 1.698924334049225 
+Minimum Delta Score: -1.5988723904825748
+Saving File...
+Training will have:  1177 samples over 5 epochs.
+Starting to organize data before training... Nº 1171 of 1178 samples.
+
+Mean time between samples: 0.3839599732772448 sec.
+Mean Score between samples: 0.2435173442484548 points.
+Maximum Train Score: 90640
+Maximum Delta Score: 1.5613505315780638 
+Minimum Delta Score: -1.5991072067059577
+Saving File...
+Training will have:  1178 samples over 5 epochs.
+Starting to organize data before training... Nº 1172 of 1179 samples.
+
+Mean time between samples: 0.38203783312888995 sec.
+Mean Score between samples: 0.26944563250976766 points.
+Maximum Train Score: 90480
+Maximum Delta Score: 1.7973516464233397 
+Minimum Delta Score: -1.5976856159046293
